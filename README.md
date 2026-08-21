@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 221 | 26 |
+| 236 | 26 |
 
 ---
 
@@ -16,26 +16,26 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (11)
 - [bitmasks](#bitmasks) (12)
-- [brute force](#brute-force) (44)
-- [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (39)
-- [data structures](#data-structures) (9)
+- [brute force](#brute-force) (49)
+- [combinatorics](#combinatorics) (3)
+- [constructive algorithms](#constructive-algorithms) (41)
+- [data structures](#data-structures) (10)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (15)
+- [dp](#dp) (16)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (6)
-- [geometry](#geometry) (2)
+- [games](#games) (7)
+- [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (107)
-- [implementation](#implementation) (58)
+- [greedy](#greedy) (115)
+- [implementation](#implementation) (60)
 - [interactive](#interactive) (1)
-- [math](#math) (96)
-- [number theory](#number-theory) (18)
+- [math](#math) (105)
+- [number theory](#number-theory) (19)
 - [schedules](#schedules) (2)
-- [sortings](#sortings) (39)
-- [strings](#strings) (21)
+- [sortings](#sortings) (40)
+- [strings](#strings) (22)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (9)
 
@@ -98,13 +98,17 @@
 | 1411B | [Fair Numbers](https://codeforces.com/contest/1411/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1411/B%20-%20Fair%20Numbers/solution.java) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.java) |
+| 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.java) |
+| 1873B | [Good Kid](https://codeforces.com/contest/1873/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1873/B%20-%20Good%20Kid/solution.java) |
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2009/A%20-%20Minimize!/solution.java) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2009/B%20-%20osu!mania/solution.java) |
@@ -137,11 +141,14 @@
 | 2225B | [Alternating String](https://codeforces.com/contest/2225/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2225/B%20-%20Alternating%20String/solution.java) |
 | 2225D | [Exceptional Segments](https://codeforces.com/contest/2225/problem/D) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2225/D%20-%20Exceptional%20Segments/solution.java) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2227/D%20-%20Palindromex/solution.java) |
+| 2229A | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2229/A%20-%20Slimes%20on%20a%20Line/solution.java) |
 
 ### combinatorics
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.java) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.java) |
 
 ### constructive algorithms
@@ -156,8 +163,10 @@
 | 1614B | [Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1614/B%20-%20Divan%20and%20a%20New%20Project%20/solution.java) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.java) |
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.java) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.java) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.java) |
+| 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.java) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.java) |
 | 1869A | [Make It Zero](https://codeforces.com/contest/1869/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/A%20-%20Make%20It%20Zero/solution.java) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
@@ -197,6 +206,7 @@
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
 | 1679B | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/B%20-%20Stone%20Age%20Problem/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2193C | [Replace and Sum](https://codeforces.com/contest/2193/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2193/C%20-%20Replace%20and%20Sum/solution.java) |
 | 2201A1 | [Lost Civilization (Easy Version)](https://codeforces.com/contest/2201/problem/A1) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2201/A1%20-%20Lost%20Civilization%20(Easy%20Version)/solution.java) |
 | 2210B | [Simply Sitting on Chairs](https://codeforces.com/contest/2210/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2210/B%20-%20Simply%20Sitting%20on%20Chairs/solution.java) |
@@ -215,6 +225,7 @@
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.java) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1883/C%20-%20Raspberries/solution.java) |
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.java) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.java) |
 | 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.java) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.java) |
@@ -246,6 +257,7 @@
 |---|---------|------------|----------|
 | 1373B | [01 Game](https://codeforces.com/contest/1373/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1373/B%20-%2001%20Game/solution.java) |
 | 1527B1 | [Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1527/B1%20-%20Palindrome%20Game%20(easy%20version)/solution.java) |
+| 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1858/A%20-%20Buttons/solution.java) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.java) |
 | 2183A | [Binary Array Game](https://codeforces.com/contest/2183/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2183/A%20-%20Binary%20Array%20Game/solution.java) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.java) |
@@ -255,6 +267,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
+| 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
 | 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.java) |
 | 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.java) |
 
@@ -283,7 +297,9 @@
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.java) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.java) |
+| 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.java) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
+| 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.java) |
 | 1726A | [Mainak and Array](https://codeforces.com/contest/1726/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1726/A%20-%20Mainak%20and%20Array/solution.java) |
@@ -291,6 +307,7 @@
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.java) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.java) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.java) |
+| 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1837/B%20-%20Comparison%20String/solution.java) |
@@ -298,13 +315,16 @@
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.java) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.java) |
 | 1857C | [Assembly via Minimums](https://codeforces.com/contest/1857/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1857/C%20-%20Assembly%20via%20Minimums/solution.java) |
+| 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1858/A%20-%20Buttons/solution.java) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.java) |
+| 1873B | [Good Kid](https://codeforces.com/contest/1873/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1873/B%20-%20Good%20Kid/solution.java) |
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.java) |
 | 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.java) |
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.java) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1901/A%20-%20Line%20Trip/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
+| 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2069A | [Was there an Array?](https://codeforces.com/contest/2069/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2069/A%20-%20Was%20there%20an%20Array%3F/solution.java) |
 | 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.java) |
@@ -381,7 +401,9 @@
 | 2227B | [Party Monster](https://codeforces.com/contest/2227/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2227/B%20-%20Party%20Monster/solution.java) |
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2227/D%20-%20Palindromex/solution.java) |
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.java) |
+| 2229A | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2229/A%20-%20Slimes%20on%20a%20Line/solution.java) |
 | 2229B | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2229/B%20-%20Absolute%20Cinema/solution.java) |
+| 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2232/A%20-%20Convergence/solution.java) |
 
 ### implementation
 
@@ -396,6 +418,7 @@
 | 1679B | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/B%20-%20Stone%20Age%20Problem/solution.java) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.java) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
+| 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.java) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1814/A%20-%20Coins/solution.java) |
@@ -404,6 +427,7 @@
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.java) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
+| 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.java) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.java) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2009/B%20-%20osu!mania/solution.java) |
 | 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.java) |
@@ -466,8 +490,11 @@
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.java) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.java) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.java) |
+| 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.java) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
+| 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.java) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.java) |
+| 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.java) |
 | 1726A | [Mainak and Array](https://codeforces.com/contest/1726/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1726/A%20-%20Mainak%20and%20Array/solution.java) |
@@ -476,18 +503,23 @@
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
+| 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1814/A%20-%20Coins/solution.java) |
 | 1826B | [Lunatic Never Content](https://codeforces.com/contest/1826/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1826/B%20-%20Lunatic%20Never%20Content/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.java) |
 | 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.java) |
+| 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1858/A%20-%20Buttons/solution.java) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.java) |
 | 1866A | [Ambitious Kid](https://codeforces.com/contest/1866/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1866/A%20-%20Ambitious%20Kid/solution.java) |
+| 1873B | [Good Kid](https://codeforces.com/contest/1873/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1873/B%20-%20Good%20Kid/solution.java) |
 | 1877A | [Goals of Victory](https://codeforces.com/contest/1877/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1877/A%20-%20Goals%20of%20Victory/solution.java) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1883/C%20-%20Raspberries/solution.java) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.java) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1901/A%20-%20Line%20Trip/solution.java) |
+| 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
+| 1977A | [Little Nikita](https://codeforces.com/contest/1977/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1977/A%20-%20Little%20Nikita/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.java) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2009/A%20-%20Minimize!/solution.java) |
@@ -550,6 +582,7 @@
 | 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.java) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2227/A%20-%20Koshary/solution.java) |
 | 2227C | [Snowfall](https://codeforces.com/contest/2227/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2227/C%20-%20Snowfall/solution.java) |
+| 2229A | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2229/A%20-%20Slimes%20on%20a%20Line/solution.java) |
 | 2229B | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2229/B%20-%20Absolute%20Cinema/solution.java) |
 | 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.java) |
 
@@ -561,6 +594,7 @@
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.java) |
 | 1411B | [Fair Numbers](https://codeforces.com/contest/1411/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1411/B%20-%20Fair%20Numbers/solution.java) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.java) |
+| 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
 | 1826B | [Lunatic Never Content](https://codeforces.com/contest/1826/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1826/B%20-%20Lunatic%20Never%20Content/solution.java) |
@@ -626,6 +660,7 @@
 | 2200D | [Portal](https://codeforces.com/contest/2200/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2200/D%20-%20Portal/solution.java) |
 | 2220A | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2220/A%20-%20Blocked/solution.java) |
 | 2222B | [Artistic Balance Tree](https://codeforces.com/contest/2222/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2222/B%20-%20Artistic%20Balance%20Tree/solution.java) |
+| 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2232/A%20-%20Convergence/solution.java) |
 
 ### strings
 
@@ -638,6 +673,7 @@
 | 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1883/B%20-%20Chemistry/solution.java) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
 | 1913B | [Swap and Delete](https://codeforces.com/contest/1913/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1913/B%20-%20Swap%20and%20Delete/solution.java) |
+| 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2094A | [Trippi Troppi](https://codeforces.com/contest/2094/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2094/A%20-%20Trippi%20Troppi/solution.java) |
 | 2110B | [Down with Brackets](https://codeforces.com/contest/2110/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2110/B%20-%20Down%20with%20Brackets/solution.java) |
 | 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2166/A%20-%20Same%20Difference/solution.java) |
