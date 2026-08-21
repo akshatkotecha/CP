@@ -6,24 +6,55 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 4 |
+| 13 | 12 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [constructive algorithms](#constructive-algorithms) (1)
+- [binary search](#binary-search) (1)
+- [bitmasks](#bitmasks) (1)
+- [brute force](#brute-force) (5)
+- [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (1)
-- [greedy](#greedy) (1)
-- [sortings](#sortings) (1)
+- [greedy](#greedy) (7)
+- [implementation](#implementation) (4)
+- [math](#math) (6)
+- [number theory](#number-theory) (2)
+- [sortings](#sortings) (5)
+- [strings](#strings) (2)
+- [two pointers](#two-pointers) (1)
 
 ---
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.java) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.java) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.java) |
+| 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.java) |
+| 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2166/A%20-%20Same%20Difference/solution.java) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.java) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.java) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.java) |
 
 ### data structures
 
@@ -36,12 +67,62 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
+| 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2166/A%20-%20Same%20Difference/solution.java) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.java) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.java) |
+| 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.java) |
+| 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.java) |
+| 2173A | [Sleeping Through Classes](https://codeforces.com/contest/2173/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2173/A%20-%20Sleeping%20Through%20Classes/solution.java) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.java) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.java) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.java) |
+| 2173A | [Sleeping Through Classes](https://codeforces.com/contest/2173/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2173/A%20-%20Sleeping%20Through%20Classes/solution.java) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.java) |
+| 2166B | [Tab Closing](https://codeforces.com/contest/2166/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2166/B%20-%20Tab%20Closing/solution.java) |
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/A%20-%20Square%3F/solution.java) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.java) |
+| 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.java) |
+| 2170B | [Addition on a Segment](https://codeforces.com/contest/2170/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/B%20-%20Addition%20on%20a%20Segment/solution.java) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.java) |
+| 2167D | [Yet Another Array Problem](https://codeforces.com/contest/2167/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/D%20-%20Yet%20Another%20Array%20Problem/solution.java) |
 
 ### sortings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
+| 2164A | [Sequence Game](https://codeforces.com/contest/2164/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2164/A%20-%20Sequence%20Game/solution.java) |
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/A%20-%20Square%3F/solution.java) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/B%20-%20Your%20Name/solution.java) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.java) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2166/A%20-%20Same%20Difference/solution.java) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/B%20-%20Your%20Name/solution.java) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.java) |
 
 ---
 
