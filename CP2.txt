@@ -1,0 +1,1149 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Codechef
+{
+    /* ==================================================================== */
+    /*                              CONSTANTS                               */
+    /* ==================================================================== */
+    public static final long MOD  = 1_000_000_007L;
+    public static final long MOD2 = 998_244_353L;
+    public static final long INF  = Long.MAX_VALUE / 4;
+    public static final int[] dx4 = {1, -1, 0, 0};
+    public static final int[] dy4 = {0, 0, 1, -1};
+    public static final int[] dx8 = {1, -1, 0, 0, 1, 1, -1, -1};
+    public static final int[] dy8 = {0, 0, 1, -1, 1, -1, 1, -1};
+    public static final Random RNG = new Random(System.nanoTime());
+
+    /* ==================================================================== */
+    /*                            BASIC MATH                                */
+    /* ==================================================================== */
+    public static long gcd(long a, long b) {
+        if (b == 0) return a;
+        return gcd(b, a % b);
+    }
+
+    public static long lcm(long a, long b) {
+        return (a / gcd(a, b)) * b;          // divide first -> avoids overflow
+    }
+
+    // extended euclid: returns {g, x, y} with a*x + b*y = g
+    public static long[] extGcd(long a, long b) {
+        if (b == 0) return new long[]{a, 1, 0};
+        long[] r = extGcd(b, a % b);
+        return new long[]{r[0], r[2], r[1] - (a / b) * r[2]};
+    }
+
+    public static long ceilDiv(long a, long b) {
+        return (a + b - 1) / b;
+    }
+
+    public static long floorDiv(long a, long b) {
+        return Math.floorDiv(a, b);
+    }
+
+    public static long absL(long a) { return a < 0 ? -a : a; }
+
+    // integer floor(sqrt(n)) with no floating point error
+    public static long sqrtFloor(long n) {
+        if (n < 0) return -1;
+        long x = (long) Math.sqrt((double) n);
+        while (x > 0 && x * x > n) x--;
+        while ((x + 1) * (x + 1) <= n) x++;
+        return x;
+    }
+
+    public static boolean isPerfectSquare(long n) {
+        if (n < 0) return false;
+        long r = sqrtFloor(n);
+        return r * r == n;
+    }
+
+    public static long digitSum(long n) {
+        long s = 0;
+        n = absL(n);
+        while (n > 0) { s += n % 10; n /= 10; }
+        return s;
+    }
+
+    public static long countDigits(long n) {
+        if (n == 0) return 1;
+        long c = 0;
+        n = absL(n);
+        while (n > 0) { c++; n /= 10; }
+        return c;
+    }
+
+    public static long reverseNumber(long n) {
+        long r = 0;
+        boolean neg = n < 0;
+        n = absL(n);
+        while (n > 0) { r = r * 10 + n % 10; n /= 10; }
+        return neg ? -r : r;
+    }
+
+    /* ==================================================================== */
+    /*                        MODULAR ARITHMETIC                            */
+    /* ==================================================================== */
+    public static long add(long a, long b, long mod) { return ((a % mod) + (b % mod) + mod) % mod; }
+    public static long sub(long a, long b, long mod) { return ((a % mod) - (b % mod) + mod) % mod; }
+    public static long mul(long a, long b, long mod) { return ((a % mod) * (b % mod)) % mod; }   // safe while mod < ~3e9
+
+    public static long add(long a, long b) { return add(a, b, MOD); }
+    public static long sub(long a, long b) { return sub(a, b, MOD); }
+    public static long mul(long a, long b) { return mul(a, b, MOD); }
+
+    // overflow-proof multiply: works for any mod < 4.6e18 (O(64) though)
+    public static long mulmod(long a, long b, long mod) {
+        long res = 0;
+        a %= mod;
+        b %= mod;
+        while (b > 0) {
+            if ((b & 1L) == 1L) res = (res + a) % mod;
+            a = (a << 1) % mod;
+            b >>= 1;
+        }
+        return res;
+    }
+
+    // fast exponentiation (mod)
+    public static long power(long a, long b, long mod) {
+        long res = 1;
+        a %= mod;
+        if (a < 0) a += mod;
+        while (b > 0) {
+            if ((b & 1L) == 1L) res = (res * a) % mod;
+            a = (a * a) % mod;
+            b >>= 1;
+        }
+        return res;
+    }
+
+    public static long power(long a, long b) { return power(a, b, MOD); }
+
+    // safe version for huge mods
+    public static long powerBig(long a, long b, long mod) {
+        long res = 1;
+        a %= mod;
+        while (b > 0) {
+            if ((b & 1L) == 1L) res = mulmod(res, a, mod);
+            a = mulmod(a, a, mod);
+            b >>= 1;
+        }
+        return res;
+    }
+
+    // plain power (no mod) - careful with overflow
+    public static long powerPlain(long a, long b) {
+        long res = 1;
+        while (b > 0) {
+            if ((b & 1L) == 1L) res *= a;
+            a *= a;
+            b >>= 1;
+        }
+        return res;
+    }
+
+    public static long modInverse(long a, long mod) {   // mod must be PRIME
+        return power(a, mod - 2, mod);
+    }
+
+    public static long modInverse(long a) { return modInverse(a, MOD); }
+
+    // inverse for any mod, needs gcd(a, mod) == 1
+    public static long modInverseGeneral(long a, long mod) {
+        long[] r = extGcd(((a % mod) + mod) % mod, mod);
+        if (r[0] != 1) return -1;
+        return ((r[1] % mod) + mod) % mod;
+    }
+
+    public static long divide(long a, long b, long mod) { return mul(a, modInverse(b, mod), mod); }
+
+    // inverses of 1..n in O(n)
+    public static long[] inverseArray(int n, long mod) {
+        long[] inv = new long[n + 1];
+        if (n >= 1) inv[1] = 1;
+        for (int i = 2; i <= n; i++)
+            inv[i] = (mod - (mod / i) * inv[(int) (mod % i)] % mod) % mod;
+        return inv;
+    }
+
+    /* ==================================================================== */
+    /*                     COMBINATORICS (nCr, nPr)                         */
+    /* ==================================================================== */
+    public static long[] fact, invFact;
+
+    public static void precomputeFactorials(int n, long mod) {
+        fact = new long[n + 1];
+        invFact = new long[n + 1];
+        fact[0] = 1;
+        for (int i = 1; i <= n; i++) fact[i] = mul(fact[i - 1], i, mod);
+        invFact[n] = modInverse(fact[n], mod);
+        for (int i = n; i >= 1; i--) invFact[i - 1] = mul(invFact[i], i, mod);
+    }
+
+    public static void precomputeFactorials(int n) { precomputeFactorials(n, MOD); }
+
+    public static long nCr(long n, long r, long mod) {
+        if (r < 0 || r > n || n < 0) return 0;
+        return mul(fact[(int) n], mul(invFact[(int) r], invFact[(int) (n - r)], mod), mod);
+    }
+
+    public static long nCr(long n, long r) { return nCr(n, r, MOD); }
+
+    public static long nPr(long n, long r, long mod) {
+        if (r < 0 || r > n || n < 0) return 0;
+        return mul(fact[(int) n], invFact[(int) (n - r)], mod);
+    }
+
+    // nCr without precompute (small r)
+    public static long nCrSmall(long n, long r, long mod) {
+        if (r < 0 || r > n) return 0;
+        r = Math.min(r, n - r);
+        long num = 1, den = 1;
+        for (long i = 0; i < r; i++) {
+            num = mul(num, (n - i) % mod, mod);
+            den = mul(den, i + 1, mod);
+        }
+        return mul(num, modInverse(den, mod), mod);
+    }
+
+    public static long catalan(int n, long mod) {
+        return mul(nCr(2L * n, n, mod), modInverse(n + 1, mod), mod);
+    }
+
+    /* ==================================================================== */
+    /*                        PRIMES & FACTORIZATION                        */
+    /* ==================================================================== */
+
+    // O(sqrt(n)) primality
+    public static boolean isPrimeSimple(long n) {
+        if (n < 2) return false;
+        if (n < 4) return true;
+        if (n % 2 == 0 || n % 3 == 0) return false;
+        for (long i = 5; i * i <= n; i += 6)
+            if (n % i == 0 || n % (i + 2) == 0) return false;
+        return true;
+    }
+
+    // deterministic Miller-Rabin - correct for n up to ~4.6e18 (mulmod limit)
+    public static boolean isPrime(long n) {
+        if (n < 2) return false;
+        for (long p : new long[]{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}) {
+            if (n % p == 0) return n == p;
+        }
+        long d = n - 1;
+        int s = 0;
+        while ((d & 1L) == 0) { d >>= 1; s++; }
+        for (long a : new long[]{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}) {
+            long x = powerBig(a, d, n);
+            if (x == 1 || x == n - 1) continue;
+            boolean composite = true;
+            for (int i = 1; i < s; i++) {
+                x = mulmod(x, x, n);
+                if (x == n - 1) { composite = false; break; }
+            }
+            if (composite) return false;
+        }
+        return true;
+    }
+
+    // sieve of eratosthenes -> boolean[] where true means prime
+    public static boolean[] sieve(int n) {
+        boolean[] p = new boolean[n + 1];
+        Arrays.fill(p, true);
+        if (n >= 0) p[0] = false;
+        if (n >= 1) p[1] = false;
+        for (int i = 2; (long) i * i <= n; i++)
+            if (p[i])
+                for (int j = i * i; j <= n; j += i) p[j] = false;
+        return p;
+    }
+
+    public static List<Integer> primeList(int n) {
+        boolean[] p = sieve(n);
+        List<Integer> res = new ArrayList<>();
+        for (int i = 2; i <= n; i++) if (p[i]) res.add(i);
+        return res;
+    }
+
+    // smallest prime factor sieve -> factorize any x <= n in O(log x)
+    public static int[] spfSieve(int n) {
+        int[] spf = new int[n + 1];
+        for (int i = 2; i <= n; i++) {
+            if (spf[i] == 0)
+                for (int j = i; j <= n; j += i)
+                    if (spf[j] == 0) spf[j] = i;
+        }
+        return spf;
+    }
+
+    public static Map<Long, Integer> factorizeWithSpf(int x, int[] spf) {
+        Map<Long, Integer> f = new LinkedHashMap<>();
+        while (x > 1) {
+            int p = spf[x];
+            int c = 0;
+            while (x % p == 0) { x /= p; c++; }
+            f.put((long) p, c);
+        }
+        return f;
+    }
+
+    // trial division factorization -> {prime : exponent}
+    public static Map<Long, Integer> primeFactors(long n) {
+        Map<Long, Integer> f = new LinkedHashMap<>();
+        for (long i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                int c = 0;
+                while (n % i == 0) { n /= i; c++; }
+                f.put(i, c);
+            }
+        }
+        if (n > 1) f.put(n, 1);
+        return f;
+    }
+
+    // just the distinct prime factors
+    public static List<Long> distinctPrimeFactors(long n) {
+        return new ArrayList<>(primeFactors(n).keySet());
+    }
+
+    // ---- REMOVING PRIME FACTORS ----
+
+    // divide out every occurrence of p from n
+    public static long removeFactor(long n, long p) {
+        if (p <= 1) return n;
+        while (n % p == 0) n /= p;
+        return n;
+    }
+
+    // how many times p divides n
+    public static long countFactor(long n, long p) {
+        long c = 0;
+        while (n % p == 0) { n /= p; c++; }
+        return c;
+    }
+
+    // strip ALL prime factors that are <= limit
+    public static long removeSmallPrimeFactors(long n, long limit) {
+        for (long i = 2; i <= limit && i * i <= n; i++)
+            n = removeFactor(n, i);
+        return n;
+    }
+
+    // remove every prime factor -> always returns 1 (useful as radical helper)
+    // radical(n) = product of distinct prime factors
+    public static long radical(long n) {
+        long r = 1;
+        for (long p : primeFactors(n).keySet()) r *= p;
+        return r;
+    }
+
+    // all divisors of n, sorted
+    public static List<Long> divisors(long n) {
+        List<Long> d = new ArrayList<>();
+        for (long i = 1; i * i <= n; i++) {
+            if (n % i == 0) {
+                d.add(i);
+                if (i != n / i) d.add(n / i);
+            }
+        }
+        Collections.sort(d);
+        return d;
+    }
+
+    public static long countDivisors(long n) {
+        long cnt = 1;
+        for (int e : primeFactors(n).values()) cnt *= (e + 1);
+        return cnt;
+    }
+
+    public static long sumDivisors(long n) {
+        long sum = 1;
+        for (Map.Entry<Long, Integer> e : primeFactors(n).entrySet()) {
+            long p = e.getKey();
+            long term = 1, pk = 1;
+            for (int i = 0; i < e.getValue(); i++) { pk *= p; term += pk; }
+            sum *= term;
+        }
+        return sum;
+    }
+
+    // euler totient
+    public static long phi(long n) {
+        long res = n;
+        for (long p : primeFactors(n).keySet()) res -= res / p;
+        return res;
+    }
+
+    public static long[] phiSieve(int n) {
+        long[] ph = new long[n + 1];
+        for (int i = 0; i <= n; i++) ph[i] = i;
+        for (int i = 2; i <= n; i++)
+            if (ph[i] == i)
+                for (int j = i; j <= n; j += i) ph[j] -= ph[j] / i;
+        return ph;
+    }
+
+    /* ==================================================================== */
+    /*                             BIT TRICKS                               */
+    /* ==================================================================== */
+    public static int countSetBits(long n) { return Long.bitCount(n); }
+    public static boolean isPowerOfTwo(long n) { return n > 0 && (n & (n - 1)) == 0; }
+    public static boolean checkBit(long n, int i) { return ((n >> i) & 1L) == 1L; }
+    public static long setBit(long n, int i) { return n | (1L << i); }
+    public static long clearBit(long n, int i) { return n & ~(1L << i); }
+    public static long toggleBit(long n, int i) { return n ^ (1L << i); }
+    public static int msbPos(long n) { return 63 - Long.numberOfLeadingZeros(n); }   // n > 0
+    public static int lsbPos(long n) { return Long.numberOfTrailingZeros(n); }
+    public static long nextPowerOfTwo(long n) { long p = 1; while (p < n) p <<= 1; return p; }
+    public static int log2(long n) { return 63 - Long.numberOfLeadingZeros(n); }
+
+    /* ==================================================================== */
+    /*                        ARRAY / SORT UTILITIES                        */
+    /* ==================================================================== */
+
+    // Arrays.sort on primitives is quicksort -> hackable. Always use these.
+    public static void sort(long[] a) {
+        Long[] b = new Long[a.length];
+        for (int i = 0; i < a.length; i++) b[i] = a[i];
+        Arrays.sort(b);
+        for (int i = 0; i < a.length; i++) a[i] = b[i];
+    }
+
+    public static void sortDesc(long[] a) {
+        Long[] b = new Long[a.length];
+        for (int i = 0; i < a.length; i++) b[i] = a[i];
+        Arrays.sort(b, Collections.reverseOrder());
+        for (int i = 0; i < a.length; i++) a[i] = b[i];
+    }
+
+    public static void sort(int[] a) {
+        Integer[] b = new Integer[a.length];
+        for (int i = 0; i < a.length; i++) b[i] = a[i];
+        Arrays.sort(b);
+        for (int i = 0; i < a.length; i++) a[i] = b[i];
+    }
+
+    public static void shuffle(long[] a) {
+        for (int i = a.length - 1; i > 0; i--) {
+            int j = RNG.nextInt(i + 1);
+            long t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+    }
+
+    public static void reverse(long[] a) {
+        for (int i = 0, j = a.length - 1; i < j; i++, j--) {
+            long t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+    }
+
+    public static void swap(long[] a, int i, int j) { long t = a[i]; a[i] = a[j]; a[j] = t; }
+
+    public static long maxArr(long[] a) { long m = Long.MIN_VALUE; for (long x : a) m = Math.max(m, x); return m; }
+    public static long minArr(long[] a) { long m = Long.MAX_VALUE; for (long x : a) m = Math.min(m, x); return m; }
+    public static long sumArr(long[] a) { long s = 0; for (long x : a) s += x; return s; }
+
+    public static long[] prefixSum(long[] a) {
+        long[] p = new long[a.length + 1];
+        for (int i = 0; i < a.length; i++) p[i + 1] = p[i] + a[i];
+        return p;                                     // sum(l..r) = p[r+1] - p[l]
+    }
+
+    public static long[] suffixSum(long[] a) {
+        int n = a.length;
+        long[] s = new long[n + 1];
+        for (int i = n - 1; i >= 0; i--) s[i] = s[i + 1] + a[i];
+        return s;
+    }
+
+    // first index with a[i] >= key, else a.length
+    public static int lowerBound(long[] a, long key) {
+        int lo = 0, hi = a.length;
+        while (lo < hi) {
+            int mid = (lo + hi) >>> 1;
+            if (a[mid] < key) lo = mid + 1; else hi = mid;
+        }
+        return lo;
+    }
+
+    // first index with a[i] > key, else a.length
+    public static int upperBound(long[] a, long key) {
+        int lo = 0, hi = a.length;
+        while (lo < hi) {
+            int mid = (lo + hi) >>> 1;
+            if (a[mid] <= key) lo = mid + 1; else hi = mid;
+        }
+        return lo;
+    }
+
+    public static long[] compress(long[] a) {           // coordinate compression (0-indexed ranks)
+        long[] sorted = a.clone();
+        sort(sorted);
+        int m = 0;
+        for (int i = 0; i < sorted.length; i++)
+            if (i == 0 || sorted[i] != sorted[i - 1]) sorted[m++] = sorted[i];
+        long[] res = new long[a.length];
+        long[] uniq = Arrays.copyOf(sorted, m);
+        for (int i = 0; i < a.length; i++) res[i] = lowerBound(uniq, a[i]);
+        return res;
+    }
+
+    public static Map<Long, Integer> freqMap(long[] a) {
+        Map<Long, Integer> m = new HashMap<>();
+        for (long x : a) m.merge(x, 1, Integer::sum);
+        return m;
+    }
+
+    /* ==================================================================== */
+    /*                            STRING HELPERS                            */
+    /* ==================================================================== */
+    public static String reverseStr(String s) { return new StringBuilder(s).reverse().toString(); }
+
+    public static boolean isPalindrome(String s) {
+        for (int i = 0, j = s.length() - 1; i < j; i++, j--)
+            if (s.charAt(i) != s.charAt(j)) return false;
+        return true;
+    }
+
+    public static long[] charFreq(String s) {           // lowercase only
+        long[] f = new long[26];
+        for (char c : s.toCharArray()) f[c - 'a']++;
+        return f;
+    }
+
+    // KMP prefix function
+    public static int[] prefixFunction(String s) {
+        int n = s.length();
+        int[] pi = new int[n];
+        for (int i = 1; i < n; i++) {
+            int j = pi[i - 1];
+            while (j > 0 && s.charAt(i) != s.charAt(j)) j = pi[j - 1];
+            if (s.charAt(i) == s.charAt(j)) j++;
+            pi[i] = j;
+        }
+        return pi;
+    }
+
+    // all start indices of pat in txt
+    public static List<Integer> kmpSearch(String txt, String pat) {
+        List<Integer> res = new ArrayList<>();
+        String comb = pat + "#" + txt;
+        int[] pi = prefixFunction(comb);
+        int m = pat.length();
+        for (int i = m + 1; i < comb.length(); i++)
+            if (pi[i] == m) res.add(i - 2 * m);
+        return res;
+    }
+
+    // Z function
+    public static int[] zFunction(String s) {
+        int n = s.length();
+        if (n == 0) return new int[0];
+        int[] z = new int[n];
+        z[0] = n;
+        for (int i = 1, l = 0, r = 0; i < n; i++) {
+            if (i < r) z[i] = Math.min(r - i, z[i - l]);
+            while (i + z[i] < n && s.charAt(z[i]) == s.charAt(i + z[i])) z[i]++;
+            if (i + z[i] > r) { l = i; r = i + z[i]; }
+        }
+        return z;
+    }
+
+    /* ==================================================================== */
+    /*                          GRAPHS: BFS / DFS                           */
+    /* ==================================================================== */
+
+    public static List<List<Integer>> newGraph(int n) {
+        List<List<Integer>> g = new ArrayList<>();
+        for (int i = 0; i <= n; i++) g.add(new ArrayList<>());
+        return g;
+    }
+
+    public static void addEdge(List<List<Integer>> g, int u, int v) {
+        g.get(u).add(v);
+        g.get(v).add(u);
+    }
+
+    public static void addDirectedEdge(List<List<Integer>> g, int u, int v) {
+        g.get(u).add(v);
+    }
+
+    // BFS -> shortest distance in edges, -1 if unreachable
+    public static long[] bfs(List<List<Integer>> g, int src) {
+        int n = g.size();
+        long[] dist = new long[n];
+        Arrays.fill(dist, -1);
+        ArrayDeque<Integer> q = new ArrayDeque<>();
+        dist[src] = 0;
+        q.add(src);
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            for (int v : g.get(u)) {
+                if (dist[v] == -1) {
+                    dist[v] = dist[u] + 1;
+                    q.add(v);
+                }
+            }
+        }
+        return dist;
+    }
+
+    // iterative DFS -> visit order (safe from stack overflow)
+    public static List<Integer> dfs(List<List<Integer>> g, int src, boolean[] vis) {
+        List<Integer> order = new ArrayList<>();
+        Deque<Integer> st = new ArrayDeque<>();
+        st.push(src);
+        while (!st.isEmpty()) {
+            int u = st.pop();
+            if (vis[u]) continue;
+            vis[u] = true;
+            order.add(u);
+            for (int v : g.get(u)) if (!vis[v]) st.push(v);
+        }
+        return order;
+    }
+
+    // recursive DFS (fine for n <= ~1e4 depth)
+    public static void dfsRec(List<List<Integer>> g, int u, boolean[] vis) {
+        vis[u] = true;
+        for (int v : g.get(u)) if (!vis[v]) dfsRec(g, v, vis);
+    }
+
+    public static int countComponents(List<List<Integer>> g, int n) {
+        boolean[] vis = new boolean[g.size()];
+        int c = 0;
+        for (int i = 1; i <= n; i++) {                 // change to 0..n-1 if 0-indexed
+            if (!vis[i]) { dfs(g, i, vis); c++; }
+        }
+        return c;
+    }
+
+    public static boolean isBipartite(List<List<Integer>> g, int n) {
+        int[] col = new int[g.size()];
+        Arrays.fill(col, -1);
+        for (int s = 1; s <= n; s++) {
+            if (col[s] != -1) continue;
+            col[s] = 0;
+            ArrayDeque<Integer> q = new ArrayDeque<>();
+            q.add(s);
+            while (!q.isEmpty()) {
+                int u = q.poll();
+                for (int v : g.get(u)) {
+                    if (col[v] == -1) { col[v] = col[u] ^ 1; q.add(v); }
+                    else if (col[v] == col[u]) return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    // cycle detection (undirected)
+    public static boolean hasCycleUndirected(List<List<Integer>> g, int n) {
+        int[] par = new int[g.size()];
+        boolean[] vis = new boolean[g.size()];
+        for (int s = 1; s <= n; s++) {
+            if (vis[s]) continue;
+            ArrayDeque<Integer> q = new ArrayDeque<>();
+            q.add(s); vis[s] = true; par[s] = -1;
+            while (!q.isEmpty()) {
+                int u = q.poll();
+                for (int v : g.get(u)) {
+                    if (!vis[v]) { vis[v] = true; par[v] = u; q.add(v); }
+                    else if (par[u] != v) return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    // Kahn's topological sort (directed) - empty list means cycle exists
+    public static List<Integer> topoSort(List<List<Integer>> g, int n) {
+        int[] indeg = new int[g.size()];
+        for (int u = 1; u <= n; u++) for (int v : g.get(u)) indeg[v]++;
+        ArrayDeque<Integer> q = new ArrayDeque<>();
+        for (int i = 1; i <= n; i++) if (indeg[i] == 0) q.add(i);
+        List<Integer> order = new ArrayList<>();
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            order.add(u);
+            for (int v : g.get(u)) if (--indeg[v] == 0) q.add(v);
+        }
+        return order.size() == n ? order : new ArrayList<>();
+    }
+
+    // grid BFS: '#' = wall, anything else walkable
+    public static long[][] gridBfs(char[][] grid, int sr, int sc) {
+        int n = grid.length, m = grid[0].length;
+        long[][] dist = new long[n][m];
+        for (long[] row : dist) Arrays.fill(row, -1);
+        ArrayDeque<int[]> q = new ArrayDeque<>();
+        dist[sr][sc] = 0;
+        q.add(new int[]{sr, sc});
+        while (!q.isEmpty()) {
+            int[] cur = q.poll();
+            for (int d = 0; d < 4; d++) {
+                int nr = cur[0] + dx4[d], nc = cur[1] + dy4[d];
+                if (nr < 0 || nc < 0 || nr >= n || nc >= m) continue;
+                if (grid[nr][nc] == '#' || dist[nr][nc] != -1) continue;
+                dist[nr][nc] = dist[cur[0]][cur[1]] + 1;
+                q.add(new int[]{nr, nc});
+            }
+        }
+        return dist;
+    }
+
+    /* ==================================================================== */
+    /*                      GRAPHS: WEIGHTED ALGORITHMS                     */
+    /* ==================================================================== */
+
+    public static List<List<long[]>> newWeightedGraph(int n) {
+        List<List<long[]>> g = new ArrayList<>();
+        for (int i = 0; i <= n; i++) g.add(new ArrayList<>());
+        return g;
+    }
+
+    public static void addWeightedEdge(List<List<long[]>> g, int u, int v, long w) {
+        g.get(u).add(new long[]{v, w});
+        g.get(v).add(new long[]{u, w});
+    }
+
+    // Dijkstra - O(E log V), no negative weights
+    public static long[] dijkstra(List<List<long[]>> g, int src) {
+        int n = g.size();
+        long[] dist = new long[n];
+        Arrays.fill(dist, INF);
+        dist[src] = 0;
+        PriorityQueue<long[]> pq = new PriorityQueue<>((x, y) -> Long.compare(x[1], y[1]));
+        pq.add(new long[]{src, 0});
+        while (!pq.isEmpty()) {
+            long[] cur = pq.poll();
+            int u = (int) cur[0];
+            if (cur[1] > dist[u]) continue;
+            for (long[] e : g.get(u)) {
+                int v = (int) e[0];
+                if (dist[u] + e[1] < dist[v]) {
+                    dist[v] = dist[u] + e[1];
+                    pq.add(new long[]{v, dist[v]});
+                }
+            }
+        }
+        return dist;
+    }
+
+    // Bellman-Ford - handles negatives. edges = {u, v, w}. null => negative cycle
+    public static long[] bellmanFord(long[][] edges, int n, int src) {
+        long[] dist = new long[n + 1];
+        Arrays.fill(dist, INF);
+        dist[src] = 0;
+        for (int i = 0; i < n - 1; i++)
+            for (long[] e : edges)
+                if (dist[(int) e[0]] != INF && dist[(int) e[0]] + e[2] < dist[(int) e[1]])
+                    dist[(int) e[1]] = dist[(int) e[0]] + e[2];
+        for (long[] e : edges)
+            if (dist[(int) e[0]] != INF && dist[(int) e[0]] + e[2] < dist[(int) e[1]])
+                return null;
+        return dist;
+    }
+
+    // Floyd-Warshall - all pairs, d[i][j] pre-filled with INF / weights
+    public static void floydWarshall(long[][] d) {
+        int n = d.length;
+        for (int k = 0; k < n; k++)
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n; j++)
+                    if (d[i][k] + d[k][j] < d[i][j]) d[i][j] = d[i][k] + d[k][j];
+    }
+
+    // Kruskal MST -> total weight, edges = {w, u, v}
+    public static long kruskalMST(long[][] edges, int n) {
+        Arrays.sort(edges, (x, y) -> Long.compare(x[0], y[0]));
+        DSU dsu = new DSU(n + 1);
+        long total = 0;
+        for (long[] e : edges)
+            if (dsu.union((int) e[1], (int) e[2])) total += e[0];
+        return total;
+    }
+
+    /* ==================================================================== */
+    /*                       MATRIX EXPONENTIATION                          */
+    /* ==================================================================== */
+    public static long[][] matMul(long[][] a, long[][] b, long mod) {
+        int n = a.length, m = b[0].length, k = b.length;
+        long[][] c = new long[n][m];
+        for (int i = 0; i < n; i++)
+            for (int p = 0; p < k; p++) {
+                if (a[i][p] == 0) continue;
+                for (int j = 0; j < m; j++)
+                    c[i][j] = (c[i][j] + a[i][p] * b[p][j]) % mod;
+            }
+        return c;
+    }
+
+    public static long[][] matPow(long[][] a, long p, long mod) {
+        int n = a.length;
+        long[][] res = new long[n][n];
+        for (int i = 0; i < n; i++) res[i][i] = 1;
+        while (p > 0) {
+            if ((p & 1L) == 1L) res = matMul(res, a, mod);
+            a = matMul(a, a, mod);
+            p >>= 1;
+        }
+        return res;
+    }
+
+    // nth fibonacci mod
+    public static long fib(long n, long mod) {
+        if (n <= 0) return 0;
+        long[][] m = {{1, 1}, {1, 0}};
+        return matPow(m, n - 1, mod)[0][0];
+    }
+
+    /* ==================================================================== */
+    /*                         DSU (UNION - FIND)                           */
+    /* ==================================================================== */
+    static class DSU {
+        int[] par, size;
+        int components;
+
+        DSU(int n) {
+            par = new int[n];
+            size = new int[n];
+            components = n;
+            for (int i = 0; i < n; i++) { par[i] = i; size[i] = 1; }
+        }
+
+        int find(int x) {
+            while (par[x] != x) { par[x] = par[par[x]]; x = par[x]; }
+            return x;
+        }
+
+        boolean union(int a, int b) {
+            a = find(a); b = find(b);
+            if (a == b) return false;
+            if (size[a] < size[b]) { int t = a; a = b; b = t; }
+            par[b] = a;
+            size[a] += size[b];
+            components--;
+            return true;
+        }
+
+        boolean connected(int a, int b) { return find(a) == find(b); }
+        int getSize(int x) { return size[find(x)]; }
+    }
+
+    /* ==================================================================== */
+    /*                          FENWICK TREE (BIT)                          */
+    /* ==================================================================== */
+    static class Fenwick {
+        long[] tree;
+        int n;
+
+        Fenwick(int n) { this.n = n; tree = new long[n + 1]; }
+
+        Fenwick(long[] a) {
+            this.n = a.length;
+            tree = new long[n + 1];
+            for (int i = 0; i < n; i++) update(i, a[i]);
+        }
+
+        // add val at index i (0-indexed)
+        void update(int i, long val) {
+            for (i++; i <= n; i += i & (-i)) tree[i] += val;
+        }
+
+        // prefix sum of [0..i]
+        long query(int i) {
+            long s = 0;
+            for (i++; i > 0; i -= i & (-i)) s += tree[i];
+            return s;
+        }
+
+        long rangeQuery(int l, int r) { return query(r) - (l > 0 ? query(l - 1) : 0); }
+
+        // smallest idx with prefix sum >= target (needs non-negative values)
+        int lowerBound(long target) {
+            int pos = 0;
+            for (int pw = Integer.highestOneBit(n); pw > 0; pw >>= 1) {
+                if (pos + pw <= n && tree[pos + pw] < target) {
+                    pos += pw;
+                    target -= tree[pos];
+                }
+            }
+            return pos;                                  // 0-indexed answer
+        }
+    }
+
+    // range update + range sum BIT   (public API is 0-indexed, inclusive)
+    static class FenwickRange {
+        long[] b1, b2;
+        int n;
+
+        FenwickRange(int n) { this.n = n; b1 = new long[n + 2]; b2 = new long[n + 2]; }
+
+        // internals are 1-indexed
+        private void upd(long[] b, int i, long v) { for (; i <= n; i += i & (-i)) b[i] += v; }
+        private long qr(long[] b, int i) { long s = 0; for (; i > 0; i -= i & (-i)) s += b[i]; return s; }
+
+        private void updRange(int l, int r, long val) {
+            upd(b1, l, val); upd(b1, r + 1, -val);
+            upd(b2, l, val * (l - 1)); upd(b2, r + 1, -val * r);
+        }
+
+        private long pre(int i) { return qr(b1, i) * i - qr(b2, i); }
+
+        void rangeUpdate(int l, int r, long val) { updRange(l + 1, r + 1, val); }
+        long rangeQuery(int l, int r) { return pre(r + 1) - pre(l); }
+    }
+
+    /* ==================================================================== */
+    /*                    SEGMENT TREE (point update)                       */
+    /* ==================================================================== */
+    static class SegTree {
+        long[] tree;
+        int n;
+
+        SegTree(long[] a) {
+            n = a.length;
+            tree = new long[4 * n];
+            build(a, 1, 0, n - 1);
+        }
+
+        // CHANGE THIS for min / max / gcd trees
+        private long merge(long x, long y) { return x + y; }
+        private long identity() { return 0L; }
+
+        private void build(long[] a, int node, int l, int r) {
+            if (l == r) { tree[node] = a[l]; return; }
+            int mid = (l + r) >>> 1;
+            build(a, 2 * node, l, mid);
+            build(a, 2 * node + 1, mid + 1, r);
+            tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
+        }
+
+        void update(int idx, long val) { update(1, 0, n - 1, idx, val); }
+
+        private void update(int node, int l, int r, int idx, long val) {
+            if (l == r) { tree[node] = val; return; }
+            int mid = (l + r) >>> 1;
+            if (idx <= mid) update(2 * node, l, mid, idx, val);
+            else update(2 * node + 1, mid + 1, r, idx, val);
+            tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
+        }
+
+        long query(int ql, int qr) { return query(1, 0, n - 1, ql, qr); }
+
+        private long query(int node, int l, int r, int ql, int qr) {
+            if (qr < l || r < ql) return identity();
+            if (ql <= l && r <= qr) return tree[node];
+            int mid = (l + r) >>> 1;
+            return merge(query(2 * node, l, mid, ql, qr),
+                         query(2 * node + 1, mid + 1, r, ql, qr));
+        }
+    }
+
+    /* ==================================================================== */
+    /*             LAZY SEGMENT TREE (range add + range sum)                */
+    /* ==================================================================== */
+    static class LazySegTree {
+        long[] tree, lazy;
+        int n;
+
+        LazySegTree(long[] a) {
+            n = a.length;
+            tree = new long[4 * n];
+            lazy = new long[4 * n];
+            build(a, 1, 0, n - 1);
+        }
+
+        private void build(long[] a, int node, int l, int r) {
+            if (l == r) { tree[node] = a[l]; return; }
+            int mid = (l + r) >>> 1;
+            build(a, 2 * node, l, mid);
+            build(a, 2 * node + 1, mid + 1, r);
+            tree[node] = tree[2 * node] + tree[2 * node + 1];
+        }
+
+        private void push(int node, int l, int r) {
+            if (lazy[node] == 0) return;
+            tree[node] += lazy[node] * (r - l + 1);
+            if (l != r) {
+                lazy[2 * node] += lazy[node];
+                lazy[2 * node + 1] += lazy[node];
+            }
+            lazy[node] = 0;
+        }
+
+        void update(int ql, int qr, long val) { update(1, 0, n - 1, ql, qr, val); }
+
+        private void update(int node, int l, int r, int ql, int qr, long val) {
+            push(node, l, r);
+            if (qr < l || r < ql) return;
+            if (ql <= l && r <= qr) { lazy[node] += val; push(node, l, r); return; }
+            int mid = (l + r) >>> 1;
+            update(2 * node, l, mid, ql, qr, val);
+            update(2 * node + 1, mid + 1, r, ql, qr, val);
+            tree[node] = tree[2 * node] + tree[2 * node + 1];
+        }
+
+        long query(int ql, int qr) { return query(1, 0, n - 1, ql, qr); }
+
+        private long query(int node, int l, int r, int ql, int qr) {
+            push(node, l, r);
+            if (qr < l || r < ql) return 0;
+            if (ql <= l && r <= qr) return tree[node];
+            int mid = (l + r) >>> 1;
+            return query(2 * node, l, mid, ql, qr) + query(2 * node + 1, mid + 1, r, ql, qr);
+        }
+    }
+
+    /* ==================================================================== */
+    /*                  SPARSE TABLE (static range min/max)                 */
+    /* ==================================================================== */
+    static class SparseTable {
+        long[][] table;
+        int[] logs;
+        boolean isMin;
+
+        SparseTable(long[] a, boolean isMin) {
+            this.isMin = isMin;
+            int n = a.length;
+            logs = new int[n + 1];
+            for (int i = 2; i <= n; i++) logs[i] = logs[i / 2] + 1;
+            int K = logs[n] + 1;
+            table = new long[K][n];
+            table[0] = a.clone();
+            for (int j = 1; j < K; j++)
+                for (int i = 0; i + (1 << j) <= n; i++)
+                    table[j][i] = op(table[j - 1][i], table[j - 1][i + (1 << (j - 1))]);
+        }
+
+        private long op(long x, long y) { return isMin ? Math.min(x, y) : Math.max(x, y); }
+
+        long query(int l, int r) {                    // inclusive, O(1)
+            int j = logs[r - l + 1];
+            return op(table[j][l], table[j][r - (1 << j) + 1]);
+        }
+    }
+
+    /* ==================================================================== */
+    /*                       LCA (binary lifting)                           */
+    /* ==================================================================== */
+    static class LCA {
+        int[][] up;
+        int[] depth;
+        int LOG;
+
+        LCA(List<List<Integer>> g, int n, int root) {
+            LOG = Math.max(1, log2(n) + 1);
+            up = new int[LOG][n + 1];
+            depth = new int[n + 1];
+            dfsInit(g, root, root);
+            for (int j = 1; j < LOG; j++)
+                for (int i = 1; i <= n; i++)
+                    up[j][i] = up[j - 1][up[j - 1][i]];
+        }
+
+        private void dfsInit(List<List<Integer>> g, int u, int p) {
+            up[0][u] = p;
+            Deque<int[]> st = new ArrayDeque<>();
+            st.push(new int[]{u, p});
+            while (!st.isEmpty()) {
+                int[] cur = st.pop();
+                up[0][cur[0]] = cur[1];
+                for (int v : g.get(cur[0])) {
+                    if (v == cur[1]) continue;
+                    depth[v] = depth[cur[0]] + 1;
+                    st.push(new int[]{v, cur[0]});
+                }
+            }
+        }
+
+        int lca(int u, int v) {
+            if (depth[u] < depth[v]) { int t = u; u = v; v = t; }
+            int diff = depth[u] - depth[v];
+            for (int j = 0; j < LOG; j++) if (((diff >> j) & 1) == 1) u = up[j][u];
+            if (u == v) return u;
+            for (int j = LOG - 1; j >= 0; j--)
+                if (up[j][u] != up[j][v]) { u = up[j][u]; v = up[j][v]; }
+            return up[0][u];
+        }
+
+        int dist(int u, int v) { return depth[u] + depth[v] - 2 * depth[lca(u, v)]; }
+    }
+
+    /* ==================================================================== */
+    /*                       OPTIONAL FAST READER                           */
+    /*      (Scanner is kept in main; swap to this only if you TLE)         */
+    /* ==================================================================== */
+    static class FastReader {
+        BufferedReader br;
+        StringTokenizer st;
+
+        FastReader() { br = new BufferedReader(new InputStreamReader(System.in)); }
+
+        String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try { st = new StringTokenizer(br.readLine()); }
+                catch (IOException e) { e.printStackTrace(); }
+            }
+            return st.nextToken();
+        }
+
+        int nextInt() { return Integer.parseInt(next()); }
+        long nextLong() { return Long.parseLong(next()); }
+        double nextDouble() { return Double.parseDouble(next()); }
+
+        String nextLine() {
+            String s = "";
+            try { s = br.readLine(); } catch (IOException e) { e.printStackTrace(); }
+            return s;
+        }
+
+        long[] readLongArray(int n) {
+            long[] a = new long[n];
+            for (int i = 0; i < n; i++) a[i] = nextLong();
+            return a;
+        }
+    }
+
+    /* ==================================================================== */
+    /*                              OUTPUT                                  */
+    /* ==================================================================== */
+    static StringBuilder sb = new StringBuilder();
+
+    public static void print(Object o)   { sb.append(o); }
+    public static void println(Object o) { sb.append(o).append('\n'); }
+    public static void println()         { sb.append('\n'); }
+
+    public static void printArr(long[] a) {
+        for (int i = 0; i < a.length; i++) sb.append(a[i]).append(i == a.length - 1 ? '\n' : ' ');
+    }
+
+    public static void flush() {
+        System.out.print(sb);
+        sb.setLength(0);
+    }
+
+    /* ==================================================================== */
+    /*                               MAIN                                   */
+    /* ==================================================================== */
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        while(t-->0)
+        {
+            int n=sc.nextInt();
+            long a[]=new long[n];
+            for(int i=0;i<n;i++) a[i]=sc.nextLong();
+
+            // ---------------- solve here ----------------
+
+
+            // --------------------------------------------
+        }
+        flush();
+    }
+}
