@@ -1,17 +1,27 @@
-<h2><a href="https://codeforces.com/contest/1952/problem/A" target="_blank" rel="noopener noreferrer">1952A — Are You a Robot, Again?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | Java 21 |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1952A](https://codeforces.com/contest/1952/problem/A) |
-
-## Topics
-`*special` `strings`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Are You a Robot, Again?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><center> <img class="tex-graphics" src="https://espresso.codeforces.com/3b12851e0d68f896734693a19292a3b1540aca56.png" style="max-width: 100.0%;max-height: 100.0%;"> </center></div>
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+public class Codechef
+{
+	public static int gcd(int a, int b) {
+        	if (b == 0) return a;
+        	return gcd(b, a % b);
+    		}
+	public static int lcm(int a, int b) {
+    		return (a * b) / gcd(a, b);
+		}
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+	//	int t=sc.nextInt();
+	//	while(t-->0)
+	//	{
+	//		int n=sc.nextInt();
+	//		int a[]=new int[n];
+		    System.out.println("safety");
+	//	}
+	}
+}
+ 
+ 
