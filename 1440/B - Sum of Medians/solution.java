@@ -1,0 +1,36 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+public class Codechef
+{
+	public static int gcd(int a, int b) {
+        	if (b == 0) return a;
+        	return gcd(b, a % b);
+    		}
+	public static int lcm(int a, int b) {
+    		return (a * b) / gcd(a, b);
+		}
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0)
+		{
+			int n=sc.nextInt();
+			int k=sc.nextInt();
+			int a[]=new int[n*k];
+			for(int i=0;i<a.length;i++) a[i]=sc.nextInt();
+			int h=n*k;
+			long sum=0;
+		    while(k-->0)
+		    {
+		        h-=(n/2+1);
+		        sum+=(long) a[h];
+		    }
+			System.out.println(sum);
+		}
+	}
+}
+ 
+ 
