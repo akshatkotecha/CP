@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 313 | 27 |
+| 314 | 27 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (12)
 - [brute force](#brute-force) (62)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (61)
+- [constructive algorithms](#constructive-algorithms) (62)
 - [data structures](#data-structures) (13)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (23)
@@ -29,10 +29,10 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (155)
-- [implementation](#implementation) (69)
+- [greedy](#greedy) (156)
+- [implementation](#implementation) (70)
 - [interactive](#interactive) (1)
-- [math](#math) (143)
+- [math](#math) (144)
 - [number theory](#number-theory) (34)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (53)
@@ -183,6 +183,7 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.java) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
 | 1614B | [Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1614/B%20-%20Divan%20and%20a%20New%20Project%20/solution.java) |
+| 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.java) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.java) |
@@ -371,6 +372,7 @@
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.java) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
+| 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.java) |
 | 1666D | [Deletive Editing](https://codeforces.com/contest/1666/problem/D) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1666/D%20-%20Deletive%20Editing/solution.java) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.java) |
@@ -523,6 +525,7 @@
 | 1362A | [Johnny and Ancient Computer](https://codeforces.com/contest/1362/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1362/A%20-%20Johnny%20and%20Ancient%20Computer/solution.java) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.java) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1624/B%20-%20Make%20AP/solution.java) |
+| 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.java) |
 | 1679B | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/B%20-%20Stone%20Age%20Problem/solution.java) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.java) |
@@ -617,6 +620,7 @@
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.java) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1624/B%20-%20Make%20AP/solution.java) |
+| 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.java) |
