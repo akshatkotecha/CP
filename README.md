@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 316 | 27 |
+| 317 | 27 |
 
 ---
 
@@ -29,10 +29,10 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (157)
+- [greedy](#greedy) (158)
 - [implementation](#implementation) (70)
 - [interactive](#interactive) (1)
-- [math](#math) (144)
+- [math](#math) (145)
 - [number theory](#number-theory) (34)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (53)
@@ -411,6 +411,7 @@
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1901/A%20-%20Line%20Trip/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
+| 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1914/C%20-%20Quests/solution.java) |
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2069A | [Was there an Array?](https://codeforces.com/contest/2069/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2069/A%20-%20Was%20there%20an%20Array%3F/solution.java) |
@@ -659,6 +660,7 @@
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1883/C%20-%20Raspberries/solution.java) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.java) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1901/A%20-%20Line%20Trip/solution.java) |
+| 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1914/C%20-%20Quests/solution.java) |
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
 | 1977A | [Little Nikita](https://codeforces.com/contest/1977/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1977/A%20-%20Little%20Nikita/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
