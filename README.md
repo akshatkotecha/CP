@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 319 | 27 |
+| 320 | 27 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (13)
 - [brute force](#brute-force) (63)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (63)
+- [constructive algorithms](#constructive-algorithms) (64)
 - [data structures](#data-structures) (13)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (23)
@@ -29,7 +29,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (159)
+- [greedy](#greedy) (160)
 - [implementation](#implementation) (70)
 - [interactive](#interactive) (1)
 - [math](#math) (147)
@@ -196,6 +196,7 @@
 | 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.java) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.java) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.java) |
+| 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1831/B%20-%20Array%20merging/solution.java) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.java) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.java) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.java) |
@@ -393,6 +394,7 @@
 | 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.java) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.java) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
+| 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1831/B%20-%20Array%20merging/solution.java) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1837/B%20-%20Comparison%20String/solution.java) |
