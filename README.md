@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 318 | 27 |
+| 319 | 27 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (13)
 - [brute force](#brute-force) (63)
-- [combinatorics](#combinatorics) (4)
+- [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (63)
 - [data structures](#data-structures) (13)
 - [dfs and similar](#dfs-and-similar) (5)
@@ -32,13 +32,13 @@
 - [greedy](#greedy) (159)
 - [implementation](#implementation) (70)
 - [interactive](#interactive) (1)
-- [math](#math) (146)
+- [math](#math) (147)
 - [number theory](#number-theory) (34)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (54)
 - [strings](#strings) (31)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (13)
+- [two pointers](#two-pointers) (14)
 
 ---
 
@@ -170,6 +170,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.java) |
+| 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.java) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.java) |
@@ -644,6 +645,7 @@
 | 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.java) |
+| 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1849/B%20-%20Monsters/solution.java) |
@@ -909,6 +911,7 @@
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
+| 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.java) |
 | 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.java) |
 | 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2193/D%20-%20Monster%20Game/solution.java) |
