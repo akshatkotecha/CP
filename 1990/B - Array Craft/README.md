@@ -1,0 +1,19 @@
+<h2><a href="https://codeforces.com/contest/1990/problem/B" target="_blank" rel="noopener noreferrer">1990B — Array Craft</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | Java 21 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1990B](https://codeforces.com/contest/1990/problem/B) |
+
+## Topics
+`constructive algorithms` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Array Craft</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>For an array $$$b$$$ of size $$$m$$$, we define:</p><ul><li> the <span class="tex-font-style-bf">maximum prefix position</span> of $$$b$$$ is the <span class="tex-font-style-bf">smallest</span> index $$$i$$$ that satisfies $$$b_1+\ldots+b_i=\max_{j=1}^{m}(b_1+\ldots+b_j)$$$;</li><li> the <span class="tex-font-style-bf">maximum suffix position</span> of $$$b$$$ is the <span class="tex-font-style-bf">largest</span> index $$$i$$$ that satisfies $$$b_i+\ldots+b_m=\max_{j=1}^{m}(b_j+\ldots+b_m)$$$.</li></ul><p>You are given three integers $$$n$$$, $$$x$$$, and $$$y$$$ ($$$x  \gt  y$$$). Construct an array $$$a$$$ of size $$$n$$$ satisfying:</p><ul><li> $$$a_i$$$ is either $$$1$$$ or $$$-1$$$ for all $$$1 \le i \le n$$$;</li><li> the <span class="tex-font-style-bf">maximum prefix position</span> of $$$a$$$ is $$$x$$$;</li><li> the <span class="tex-font-style-bf">maximum suffix position</span> of $$$a$$$ is $$$y$$$.</li></ul><p>If there are multiple arrays that meet the conditions, print any. It can be proven that such an array always exists under the given conditions.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of test cases.</p><p>For each test case: </p><ul> <li> The only line contains three integers $$$n$$$, $$$x$$$, and $$$y$$$ ($$$2 \leq n \leq 10^5, 1 \le y \lt x \le n)$$$. </li></ul><p>It is guaranteed that the sum of $$$n$$$ over all test cases will not exceed $$$10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output $$$n$$$ space-separated integers $$$a_1, a_2, \ldots, a_n$$$ in a new line.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008113928450935733" id="id0049208946968501444" class="input-output-copier">Copy</div></div><pre id="id008113928450935733"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">2 2 1</div><div class="test-example-line test-example-line-even test-example-line-2">4 4 3</div><div class="test-example-line test-example-line-odd test-example-line-3">6 5 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0016920699968441966" id="id0020641879387597817" class="input-output-copier">Copy</div></div><pre id="id0016920699968441966">1 1
+1 -1 1 1
+1 1 -1 1 1 -1</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the second test case, </p><ul><li> $$$i=x=4$$$ is the <span class="tex-font-style-bf">smallest</span> index that satisfies $$$a_1+\ldots +a_i=\max_{j=1}^{n}(a_1+\ldots+a_j)=2$$$;</li><li> $$$i=y=3$$$ is the <span class="tex-font-style-bf">greatest</span> index that satisfies $$$a_i+\ldots +a_n=\max_{j=1}^{n}(a_j+\ldots+a_n)=2$$$.</li></ul><p>Thus, the array $$$a=[1,-1,1,1]$$$ is considered correct.</p></div>
