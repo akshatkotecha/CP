@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 323 | 27 |
+| 324 | 27 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (13)
 - [brute force](#brute-force) (64)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (66)
+- [constructive algorithms](#constructive-algorithms) (67)
 - [data structures](#data-structures) (13)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (23)
@@ -29,7 +29,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (163)
+- [greedy](#greedy) (164)
 - [implementation](#implementation) (72)
 - [interactive](#interactive) (1)
 - [math](#math) (148)
@@ -208,6 +208,7 @@
 | 1869A | [Make It Zero](https://codeforces.com/contest/1869/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/A%20-%20Make%20It%20Zero/solution.java) |
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.java) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
+| 1990B | [Array Craft](https://codeforces.com/contest/1990/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/B%20-%20Array%20Craft/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2131B | [Alternating Series](https://codeforces.com/contest/2131/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2131/B%20-%20Alternating%20Series/solution.java) |
 | 2140B | [Another Divisibility Problem](https://codeforces.com/contest/2140/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2140/B%20-%20Another%20Divisibility%20Problem/solution.java) |
@@ -423,6 +424,7 @@
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1914/C%20-%20Quests/solution.java) |
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
+| 1990B | [Array Craft](https://codeforces.com/contest/1990/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/B%20-%20Array%20Craft/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2069A | [Was there an Array?](https://codeforces.com/contest/2069/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2069/A%20-%20Was%20there%20an%20Array%3F/solution.java) |
 | 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.java) |
