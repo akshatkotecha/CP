@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1990/problem/A" target="_blank" rel="noopener noreferrer">1990A — Submission Bait</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | Java 21 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1990A](https://codeforces.com/contest/1990/problem/A) |
+
+## Topics
+`brute force` `games` `greedy` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Submission Bait</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Alice and Bob are playing a game in an array $$$a$$$ of size $$$n$$$.</p><p>They take turns to do operations, with Alice starting first. The player who can not operate will lose. At first, a variable $$$mx$$$ is set to $$$0$$$.</p><p>In one operation, a player can do:</p><ul><li> Choose an index $$$i$$$ ($$$1 \le i \le n$$$) such that $$$a_{i} \geq mx$$$ and set $$$mx$$$ to $$$a_{i}$$$. Then, set $$$a_{i}$$$ to $$$0$$$.</li></ul><p>Determine whether Alice has a winning strategy.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 10^3$$$) — the number of test cases.</p><p>For each test case: </p><ul> <li> The first line contains an integer $$$n$$$ ($$$2 \leq n \leq 50$$$) — the size of the array. </li><li> The second line contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \leq a_i \leq n$$$) — the elements of the array. </li></ul></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, if Alice has a winning strategy, output "<span class="tex-font-style-tt">YES</span>". Otherwise, output "<span class="tex-font-style-tt">NO</span>".</p><p>You can output the answer in any case (upper or lower). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id004718976054013738" id="id008768561765051999" class="input-output-copier">Copy</div></div><pre id="id004718976054013738"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-odd test-example-line-1">2 1</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">1 1</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">3 3 3</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-even test-example-line-4">3 3 4 4</div><div class="test-example-line test-example-line-odd test-example-line-5">4</div><div class="test-example-line test-example-line-odd test-example-line-5">1 2 2 2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006271716448390571" id="id00022578714813076495" class="input-output-copier">Copy</div></div><pre id="id006271716448390571">YES
+NO
+YES
+NO
+YES
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, Alice can choose $$$i=1$$$ since $$$a_1=2 \ge mx=0$$$.</p><p>After Alice's operation, $$$a=[0,1]$$$ and $$$mx=2$$$. Bob can not do any operation. Alice wins.</p><p>In the second test case, Alice doesn't have a winning strategy.</p><p>For example, if Alice chooses $$$i=1$$$, after Alice's operation: $$$a=[0,1]$$$ and $$$mx=1$$$. Then, Bob can choose $$$i=2$$$ since $$$a_2=1 \ge mx=1$$$. After Bob's operation: $$$a=[0,0]$$$ and $$$mx=1$$$. Alice can not do any operation. Bob wins.</p></div>
