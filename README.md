@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 320 | 27 |
+| 321 | 27 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (13)
-- [brute force](#brute-force) (63)
+- [brute force](#brute-force) (64)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (64)
 - [data structures](#data-structures) (13)
@@ -29,8 +29,8 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (160)
-- [implementation](#implementation) (70)
+- [greedy](#greedy) (161)
+- [implementation](#implementation) (71)
 - [interactive](#interactive) (1)
 - [math](#math) (147)
 - [number theory](#number-theory) (34)
@@ -109,6 +109,7 @@
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.java) |
 | 1673B | [A Perfectly Balanced String?](https://codeforces.com/contest/1673/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1673/B%20-%20A%20Perfectly%20Balanced%20String%3F/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
+| 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.java) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.java) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
@@ -385,6 +386,7 @@
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
 | 1696B | [NIT Destroys the Universe](https://codeforces.com/contest/1696/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1696/B%20-%20NIT%20Destroys%20the%20Universe/solution.java) |
+| 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.java) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.java) |
 | 1726A | [Mainak and Array](https://codeforces.com/contest/1726/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1726/A%20-%20Mainak%20and%20Array/solution.java) |
 | 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.java) |
@@ -538,6 +540,7 @@
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.java) |
 | 1679B | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/B%20-%20Stone%20Age%20Problem/solution.java) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.java) |
+| 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.java) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
