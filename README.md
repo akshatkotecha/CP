@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 322 | 27 |
+| 323 | 27 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (13)
 - [brute force](#brute-force) (64)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (65)
+- [constructive algorithms](#constructive-algorithms) (66)
 - [data structures](#data-structures) (13)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (23)
@@ -29,8 +29,8 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (162)
-- [implementation](#implementation) (71)
+- [greedy](#greedy) (163)
+- [implementation](#implementation) (72)
 - [interactive](#interactive) (1)
 - [math](#math) (148)
 - [number theory](#number-theory) (34)
@@ -38,7 +38,7 @@
 - [sortings](#sortings) (54)
 - [strings](#strings) (31)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (14)
+- [two pointers](#two-pointers) (15)
 
 ---
 
@@ -191,6 +191,7 @@
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.java) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
+| 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.java) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.java) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.java) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.java) |
@@ -386,6 +387,7 @@
 | 1673B | [A Perfectly Balanced String?](https://codeforces.com/contest/1673/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1673/B%20-%20A%20Perfectly%20Balanced%20String%3F/solution.java) |
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
+| 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.java) |
 | 1696B | [NIT Destroys the Universe](https://codeforces.com/contest/1696/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1696/B%20-%20NIT%20Destroys%20the%20Universe/solution.java) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.java) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.java) |
@@ -542,6 +544,7 @@
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.java) |
 | 1679B | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/B%20-%20Stone%20Age%20Problem/solution.java) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.java) |
+| 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.java) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.java) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.java) |
@@ -916,6 +919,7 @@
 |---|---------|------------|----------|
 | 1366B | [Shuffle](https://codeforces.com/contest/1366/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1366/B%20-%20Shuffle/solution.java) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.java) |
+| 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.java) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
