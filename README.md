@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 327 | 27 |
+| 328 | 27 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [constructive algorithms](#constructive-algorithms) (67)
 - [data structures](#data-structures) (14)
 - [dfs and similar](#dfs-and-similar) (5)
-- [dp](#dp) (23)
+- [dp](#dp) (24)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -29,13 +29,13 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (167)
+- [greedy](#greedy) (168)
 - [implementation](#implementation) (72)
 - [interactive](#interactive) (1)
 - [math](#math) (149)
 - [number theory](#number-theory) (35)
 - [schedules](#schedules) (3)
-- [sortings](#sortings) (55)
+- [sortings](#sortings) (56)
 - [strings](#strings) (31)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (16)
@@ -285,6 +285,7 @@
 |---|---------|------------|----------|
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.java) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.java) |
+| 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.java) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1883/C%20-%20Raspberries/solution.java) |
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.java) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
@@ -403,6 +404,7 @@
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1742/D%20-%20Coprime/solution.java) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.java) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.java) |
+| 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.java) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.java) |
 | 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.java) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.java) |
@@ -836,6 +838,7 @@
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.java) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.java) |
+| 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.java) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
