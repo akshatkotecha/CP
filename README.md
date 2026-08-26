@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 328 | 27 |
+| 329 | 27 |
 
 ---
 
@@ -32,7 +32,7 @@
 - [greedy](#greedy) (168)
 - [implementation](#implementation) (72)
 - [interactive](#interactive) (1)
-- [math](#math) (149)
+- [math](#math) (150)
 - [number theory](#number-theory) (35)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (56)
@@ -646,6 +646,7 @@
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.java) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.java) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.java) |
+| 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.java) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1624/B%20-%20Make%20AP/solution.java) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.java) |
