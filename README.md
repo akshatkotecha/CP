@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 329 | 27 |
+| 330 | 27 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (16)
 - [bitmasks](#bitmasks) (13)
-- [brute force](#brute-force) (66)
+- [brute force](#brute-force) (67)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (67)
 - [data structures](#data-structures) (14)
@@ -29,11 +29,11 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (168)
+- [greedy](#greedy) (169)
 - [implementation](#implementation) (72)
 - [interactive](#interactive) (1)
-- [math](#math) (150)
-- [number theory](#number-theory) (35)
+- [math](#math) (151)
+- [number theory](#number-theory) (36)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (56)
 - [strings](#strings) (31)
@@ -113,6 +113,7 @@
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1742/D%20-%20Coprime/solution.java) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.java) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.java) |
+| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.java) |
@@ -403,6 +404,7 @@
 | 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.java) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1742/D%20-%20Coprime/solution.java) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.java) |
+| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.java) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.java) |
 | 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.java) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.java) |
@@ -659,6 +661,7 @@
 | 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.java) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.java) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.java) |
+| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.java) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.java) |
 | 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.java) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
@@ -792,6 +795,7 @@
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1742/D%20-%20Coprime/solution.java) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.java) |
+| 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.java) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
 | 1826B | [Lunatic Never Content](https://codeforces.com/contest/1826/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1826/B%20-%20Lunatic%20Never%20Content/solution.java) |
 | 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.java) |
