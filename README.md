@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 332 | 27 |
+| 333 | 27 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (13)
-- [brute force](#brute-force) (67)
+- [brute force](#brute-force) (68)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (67)
 - [data structures](#data-structures) (15)
@@ -29,7 +29,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (171)
+- [greedy](#greedy) (172)
 - [implementation](#implementation) (72)
 - [interactive](#interactive) (1)
 - [math](#math) (152)
@@ -119,6 +119,7 @@
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.java) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.java) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.java) |
+| 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.java) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1853/A%20-%20Desorting/solution.java) |
@@ -415,6 +416,7 @@
 | 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.java) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.java) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
+| 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.java) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1831/B%20-%20Array%20merging/solution.java) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
