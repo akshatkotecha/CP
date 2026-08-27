@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 335 | 27 |
+| 336 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (4)
-- [Uncategorized](#uncategorized) (2)
+- [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (69)
@@ -55,6 +55,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1077C | [Good Array](https://codeforces.com/contest/1077/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1077/C%20-%20Good%20Array/solution.java) |
 | 2188C | [Restricted Sorting](https://codeforces.com/contest/2188/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2188/C%20-%20Restricted%20Sorting/solution.java) |
 | 2197C | [Game with a Fraction](https://codeforces.com/contest/2197/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2197/C%20-%20Game%20with%20a%20Fraction/solution.java) |
 
