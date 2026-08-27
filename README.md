@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 336 | 27 |
+| 337 | 27 |
 
 ---
 
@@ -25,17 +25,17 @@
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (11)
+- [games](#games) (12)
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (174)
+- [greedy](#greedy) (175)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (152)
+- [math](#math) (153)
 - [number theory](#number-theory) (36)
 - [schedules](#schedules) (3)
-- [sortings](#sortings) (58)
+- [sortings](#sortings) (59)
 - [strings](#strings) (31)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (17)
@@ -345,6 +345,7 @@
 | 1527B1 | [Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1527/B1%20-%20Palindrome%20Game%20(easy%20version)/solution.java) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1858/A%20-%20Buttons/solution.java) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.java) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.java) |
 | 1990A | [Submission Bait](https://codeforces.com/contest/1990/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/A%20-%20Submission%20Bait/solution.java) |
 | 2183A | [Binary Array Game](https://codeforces.com/contest/2183/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2183/A%20-%20Binary%20Array%20Game/solution.java) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.java) |
@@ -448,6 +449,7 @@
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1914/C%20-%20Quests/solution.java) |
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.java) |
 | 1990A | [Submission Bait](https://codeforces.com/contest/1990/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/A%20-%20Submission%20Bait/solution.java) |
 | 1990B | [Array Craft](https://codeforces.com/contest/1990/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/B%20-%20Array%20Craft/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
@@ -710,6 +712,7 @@
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1901/A%20-%20Line%20Trip/solution.java) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1914/C%20-%20Quests/solution.java) |
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1921/A%20-%20Square/solution.java) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.java) |
 | 1977A | [Little Nikita](https://codeforces.com/contest/1977/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1977/A%20-%20Little%20Nikita/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.java) |
@@ -874,6 +877,7 @@
 | 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.java) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
+| 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.java) |
 | 1990A | [Submission Bait](https://codeforces.com/contest/1990/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/A%20-%20Submission%20Bait/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.java) |
