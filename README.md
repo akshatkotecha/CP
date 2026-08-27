@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 337 | 27 |
+| 338 | 27 |
 
 ---
 
@@ -32,8 +32,8 @@
 - [greedy](#greedy) (175)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (153)
-- [number theory](#number-theory) (36)
+- [math](#math) (154)
+- [number theory](#number-theory) (37)
 - [schedules](#schedules) (3)
 - [sortings](#sortings) (59)
 - [strings](#strings) (31)
@@ -656,6 +656,7 @@
 | 1418A | [Buying Torches](https://codeforces.com/contest/1418/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1418/A%20-%20Buying%20Torches/solution.java) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.java) |
 | 1447B | [Numbers Box](https://codeforces.com/contest/1447/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1447/B%20-%20Numbers%20Box/solution.java) |
+| 1458A | [Row GCD](https://codeforces.com/contest/1458/problem/A) | 1600 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1458/A%20-%20Row%20GCD/solution.java) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.java) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.java) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.java) |
@@ -807,6 +808,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.java) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.java) |
 | 1411B | [Fair Numbers](https://codeforces.com/contest/1411/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1411/B%20-%20Fair%20Numbers/solution.java) |
+| 1458A | [Row GCD](https://codeforces.com/contest/1458/problem/A) | 1600 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1458/A%20-%20Row%20GCD/solution.java) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.java) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.java) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.java) |
