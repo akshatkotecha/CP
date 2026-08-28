@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 338 | 27 |
+| 339 | 27 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (69)
-- [combinatorics](#combinatorics) (5)
+- [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (67)
 - [data structures](#data-structures) (16)
 - [dfs and similar](#dfs-and-similar) (5)
@@ -32,13 +32,13 @@
 - [greedy](#greedy) (175)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (154)
+- [math](#math) (155)
 - [number theory](#number-theory) (37)
 - [schedules](#schedules) (3)
-- [sortings](#sortings) (59)
+- [sortings](#sortings) (60)
 - [strings](#strings) (31)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (17)
+- [two pointers](#two-pointers) (18)
 
 ---
 
@@ -179,6 +179,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.java) |
+| 1827A | [Counting Orders](https://codeforces.com/contest/1827/problem/A) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1827/A%20-%20Counting%20Orders/solution.java) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.java) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
@@ -689,6 +690,7 @@
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1814/A%20-%20Coins/solution.java) |
 | 1826B | [Lunatic Never Content](https://codeforces.com/contest/1826/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1826/B%20-%20Lunatic%20Never%20Content/solution.java) |
+| 1827A | [Counting Orders](https://codeforces.com/contest/1827/problem/A) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1827/A%20-%20Counting%20Orders/solution.java) |
 | 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.java) |
@@ -869,6 +871,7 @@
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.java) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.java) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.java) |
+| 1827A | [Counting Orders](https://codeforces.com/contest/1827/problem/A) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1827/A%20-%20Counting%20Orders/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1849/B%20-%20Monsters/solution.java) |
@@ -969,6 +972,7 @@
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.java) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.java) |
+| 1827A | [Counting Orders](https://codeforces.com/contest/1827/problem/A) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1827/A%20-%20Counting%20Orders/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.java) |
