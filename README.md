@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 341 | 27 |
+| 342 | 27 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (4)
-- [Uncategorized](#uncategorized) (4)
+- [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (69)
@@ -59,6 +59,7 @@
 | 2188C | [Restricted Sorting](https://codeforces.com/contest/2188/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2188/C%20-%20Restricted%20Sorting/solution.java) |
 | 2197C | [Game with a Fraction](https://codeforces.com/contest/2197/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2197/C%20-%20Game%20with%20a%20Fraction/solution.java) |
 | 2258A | [Odd Eraser](https://codeforces.com/contest/2258/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2258/A%20-%20Odd%20Eraser/solution.java) |
+| 2258B1 | [Carrot Chopdown (Easy Version)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2258/B1%20-%20Carrot%20Chopdown%20(Easy%20Version)/solution.java) |
 
 ### binary search
 
