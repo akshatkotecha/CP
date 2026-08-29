@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 339 | 27 |
+| 340 | 27 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [constructive algorithms](#constructive-algorithms) (67)
 - [data structures](#data-structures) (16)
 - [dfs and similar](#dfs-and-similar) (5)
-- [dp](#dp) (26)
+- [dp](#dp) (27)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -29,7 +29,7 @@
 - [geometry](#geometry) (4)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (175)
+- [greedy](#greedy) (176)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
 - [math](#math) (155)
@@ -294,6 +294,7 @@
 |---|---------|------------|----------|
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.java) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.java) |
+| 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.java) |
 | 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.java) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.java) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.java) |
@@ -398,6 +399,7 @@
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.java) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
+| 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.java) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.java) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.java) |
