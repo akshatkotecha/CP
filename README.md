@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 343 | 27 |
+| 344 | 28 |
 
 ---
 
@@ -26,16 +26,17 @@
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (12)
-- [geometry](#geometry) (4)
+- [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (177)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (156)
+- [math](#math) (157)
 - [number theory](#number-theory) (37)
 - [schedules](#schedules) (3)
-- [sortings](#sortings) (60)
+- [shortest paths](#shortest-paths) (1)
+- [sortings](#sortings) (61)
 - [strings](#strings) (32)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (18)
@@ -365,6 +366,7 @@
 |---|---------|------------|----------|
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1806/A%20-%20Walking%20Master/solution.java) |
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
 | 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.java) |
 | 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.java) |
 
@@ -713,6 +715,7 @@
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.java) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.java) |
 | 1866A | [Ambitious Kid](https://codeforces.com/contest/1866/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1866/A%20-%20Ambitious%20Kid/solution.java) |
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
 | 1873B | [Good Kid](https://codeforces.com/contest/1873/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1873/B%20-%20Good%20Kid/solution.java) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1873/C%20-%20Target%20Practice/solution.java) |
 | 1877A | [Goals of Victory](https://codeforces.com/contest/1877/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1877/A%20-%20Goals%20of%20Victory/solution.java) |
@@ -860,6 +863,12 @@
 | 2197B | [Array and Permutation](https://codeforces.com/contest/2197/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2197/B%20-%20Array%20and%20Permutation/solution.java) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.java) |
 
+### shortest paths
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
+
 ### sortings
 
 | # | Problem | Difficulty | Solution |
@@ -886,6 +895,7 @@
 | 1857C | [Assembly via Minimums](https://codeforces.com/contest/1857/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1857/C%20-%20Assembly%20via%20Minimums/solution.java) |
 | 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.java) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.java) |
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
 | 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.java) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
