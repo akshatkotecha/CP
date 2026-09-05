@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 348 | 28 |
+| 349 | 28 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (4)
-- [Uncategorized](#uncategorized) (8)
+- [Uncategorized](#uncategorized) (9)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (70)
@@ -64,6 +64,7 @@
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.java) |
 | 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/B%20-%20Minus%20Two/solution.java) |
 | 2259C | [101](https://codeforces.com/contest/2259/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/C%20-%20101/solution.java) |
+| 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.java) |
 
 ### binary search
 
