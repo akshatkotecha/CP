@@ -6,19 +6,20 @@
 
 | Total Problems | Topics |
 |---|---|
-| 349 | 28 |
+| 350 | 29 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (4)
+- [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (9)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (70)
 - [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (67)
+- [constructive algorithms](#constructive-algorithms) (68)
 - [data structures](#data-structures) (16)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (27)
@@ -29,7 +30,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (177)
+- [greedy](#greedy) (178)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
 - [math](#math) (158)
@@ -51,6 +52,12 @@
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.java) |
 | 2214B | [Are You Smiling?](https://codeforces.com/contest/2214/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2214/B%20-%20Are%20You%20Smiling%3F/solution.java) |
 | 2214C | [And?](https://codeforces.com/contest/2214/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2214/C%20-%20And%3F/solution.java) |
+
+### 2-sat
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
 
 ### Uncategorized
 
@@ -264,6 +271,7 @@
 | 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.java) |
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/D%20-%20Silhouette/solution.java) |
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.java) |
+| 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
 
 ### data structures
 
@@ -569,6 +577,7 @@
 | 2253C | [Sum of Distinct Values in a Matrix](https://codeforces.com/contest/2253/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/C%20-%20Sum%20of%20Distinct%20Values%20in%20a%20Matrix/solution.java) |
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.java) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.java) |
+| 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
 
 ### implementation
 
