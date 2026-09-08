@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 350 | 29 |
+| 351 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (9)
+- [Uncategorized](#uncategorized) (10)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (14)
 - [brute force](#brute-force) (70)
@@ -72,6 +72,7 @@
 | 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/B%20-%20Minus%20Two/solution.java) |
 | 2259C | [101](https://codeforces.com/contest/2259/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/C%20-%20101/solution.java) |
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.java) |
+| 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.java) |
 
 ### binary search
 
