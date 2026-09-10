@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 353 | 29 |
+| 354 | 29 |
 
 ---
 
@@ -30,7 +30,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (178)
+- [greedy](#greedy) (179)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
 - [math](#math) (159)
@@ -517,6 +517,7 @@
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.java) |
 | 2188B | [Seats](https://codeforces.com/contest/2188/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2188/B%20-%20Seats/solution.java) |
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.java) |
+| 2193B | [Reverse a Permutation](https://codeforces.com/contest/2193/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2193/B%20-%20Reverse%20a%20Permutation/solution.java) |
 | 2193C | [Replace and Sum](https://codeforces.com/contest/2193/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2193/C%20-%20Replace%20and%20Sum/solution.java) |
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.java) |
 | 2194B | [Offshores](https://codeforces.com/contest/2194/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2194/B%20-%20Offshores/solution.java) |
