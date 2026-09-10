@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 352 | 29 |
+| 353 | 29 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (17)
-- [bitmasks](#bitmasks) (14)
+- [bitmasks](#bitmasks) (15)
 - [brute force](#brute-force) (70)
 - [combinatorics](#combinatorics) (6)
 - [constructive algorithms](#constructive-algorithms) (68)
@@ -33,7 +33,7 @@
 - [greedy](#greedy) (178)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
-- [math](#math) (158)
+- [math](#math) (159)
 - [number theory](#number-theory) (37)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (1)
@@ -101,6 +101,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.java) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.java) |
@@ -678,6 +679,7 @@
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.java) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.java) |
 | 1418A | [Buying Torches](https://codeforces.com/contest/1418/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1418/A%20-%20Buying%20Torches/solution.java) |
+| 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.java) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.java) |
 | 1447B | [Numbers Box](https://codeforces.com/contest/1447/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1447/B%20-%20Numbers%20Box/solution.java) |
 | 1458A | [Row GCD](https://codeforces.com/contest/1458/problem/A) | 1600 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1458/A%20-%20Row%20GCD/solution.java) |
