@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 354 | 29 |
+| 355 | 29 |
 
 ---
 
@@ -30,7 +30,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (179)
+- [greedy](#greedy) (180)
 - [implementation](#implementation) (74)
 - [interactive](#interactive) (1)
 - [math](#math) (159)
@@ -38,7 +38,7 @@
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (61)
-- [strings](#strings) (33)
+- [strings](#strings) (34)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (19)
 
@@ -512,6 +512,7 @@
 | 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.java) |
 | 2178C | [First or Second](https://codeforces.com/contest/2178/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2178/C%20-%20First%20or%20Second/solution.java) |
 | 2179B | [Blackslex and Showering](https://codeforces.com/contest/2179/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2179/B%20-%20Blackslex%20and%20Showering/solution.java) |
+| 2180B | [Ashmal](https://codeforces.com/contest/2180/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2180/B%20-%20Ashmal/solution.java) |
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.java) |
 | 2183B | [Yet Another MEX Problem](https://codeforces.com/contest/2183/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2183/B%20-%20Yet%20Another%20MEX%20Problem/solution.java) |
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.java) |
@@ -980,6 +981,7 @@
 | 2178A | [Yes or Yes](https://codeforces.com/contest/2178/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2178/A%20-%20Yes%20or%20Yes/solution.java) |
 | 2178B | [Impost or Sus](https://codeforces.com/contest/2178/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2178/B%20-%20Impost%20or%20Sus/solution.java) |
 | 2179A | [Blackslex and Password](https://codeforces.com/contest/2179/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2179/A%20-%20Blackslex%20and%20Password/solution.java) |
+| 2180B | [Ashmal](https://codeforces.com/contest/2180/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2180/B%20-%20Ashmal/solution.java) |
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.java) |
 | 2192A | [String Rotation Game](https://codeforces.com/contest/2192/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2192/A%20-%20String%20Rotation%20Game/solution.java) |
 | 2192B | [Flipping Binary String](https://codeforces.com/contest/2192/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2192/B%20-%20Flipping%20Binary%20String/solution.java) |
