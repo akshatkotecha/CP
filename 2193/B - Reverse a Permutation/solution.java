@@ -95,6 +95,157 @@ public class Codechef
         return low;
     }
  
+    // ==================== PRINT HELPERS ====================
+ 
+    public static void yn(boolean b) {
+        System.out.println(b ? "YES" : "NO");
+    }
+ 
+    public static void printArray(int[] a) {
+        for (int x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void printArray(long[] a) {
+        for (long x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void printArray(double[] a) {
+        for (double x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void printArray(String[] a) {
+        for (String x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void printList(List<?> a) {
+        for (Object x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void printMatrix(int[][] a) {
+        for (int[] row : a)
+            printArray(row);
+    }
+ 
+    // ==================== ARRAY HELPERS ====================
+ 
+    public static void sort(int[] a) {
+        Arrays.sort(a);
+    }
+ 
+    public static void sort(long[] a) {
+        Arrays.sort(a);
+    }
+ 
+    public static int min(int a, int b) {
+        return Math.min(a, b);
+    }
+ 
+    public static int max(int a, int b) {
+        return Math.max(a, b);
+    }
+ 
+    public static long min(long a, long b) {
+        return Math.min(a, b);
+    }
+ 
+    public static long max(long a, long b) {
+        return Math.max(a, b);
+    }
+ 
+    public static int minArray(int[] a) {
+        int ans = a[0];
+ 
+        for (int x : a)
+            ans = Math.min(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static int maxArray(int[] a) {
+        int ans = a[0];
+ 
+        for (int x : a)
+            ans = Math.max(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static long minArray(long[] a) {
+        long ans = a[0];
+ 
+        for (long x : a)
+            ans = Math.min(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static long maxArray(long[] a) {
+        long ans = a[0];
+ 
+        for (long x : a)
+            ans = Math.max(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static int sum(int[] a) {
+        int ans = 0;
+ 
+        for (int x : a)
+            ans += x;
+ 
+        return ans;
+    }
+ 
+    public static long sum(long[] a) {
+        long ans = 0;
+ 
+        for (long x : a)
+            ans += x;
+ 
+        return ans;
+    }
+ 
+    // ==================== MATH HELPERS ====================
+ 
+    public static long power(long a, long b) {
+        long ans = 1;
+ 
+        while (b > 0) {
+            if ((b & 1) == 1)
+                ans *= a;
+ 
+            a *= a;
+            b >>= 1;
+        }
+ 
+        return ans;
+    }
+ 
+    public static long powerMod(long a, long b) {
+        long ans = 1;
+ 
+        while (b > 0) {
+            if ((b & 1) == 1)
+                ans = (ans * a) % mod;
+ 
+            a = (a * a) % mod;
+            b >>= 1;
+        }
+ 
+        return ans;
+    }
+ 
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
@@ -131,8 +282,7 @@ public class Codechef
                 left++;
                 right--;
             }
-            for(int num : a) System.out.print(num+" ");
-            System.out.println();
+            printArray(a);
 		}
 	}
 }
