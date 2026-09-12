@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 359 | 29 |
+| 360 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (11)
+- [Uncategorized](#uncategorized) (12)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (72)
@@ -74,6 +74,7 @@
 | 2259D | [MEX Multiset](https://codeforces.com/contest/2259/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/D%20-%20MEX%20Multiset/solution.java) |
 | 2260B | [Monocarp and Projects](https://codeforces.com/contest/2260/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2260/B%20-%20Monocarp%20and%20Projects/solution.java) |
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.java) |
+| 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.java) |
 
 ### binary search
 
