@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 362 | 29 |
+| 364 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (14)
+- [Uncategorized](#uncategorized) (16)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (72)
@@ -77,6 +77,8 @@
 | 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.java) |
 | 2263B | [Min Matrices](https://codeforces.com/contest/2263/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/B%20-%20Min%20Matrices/solution.java) |
 | 2263C1 | [Floor of MEX (Easy Version)](https://codeforces.com/contest/2263/problem/C1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/C1%20-%20Floor%20of%20MEX%20(Easy%20Version)/solution.java) |
+| 2264A | [Rumb Needs a Hand](https://codeforces.com/contest/2264/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/A%20-%20Rumb%20Needs%20a%20Hand/solution.java) |
+| 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.java) |
 
 ### binary search
 
