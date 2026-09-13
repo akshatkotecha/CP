@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 361 | 29 |
+| 362 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (13)
+- [Uncategorized](#uncategorized) (14)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (16)
 - [brute force](#brute-force) (72)
@@ -76,6 +76,7 @@
 | 2260C | [Maximize XOR, Minimize Operations](https://codeforces.com/contest/2260/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2260/C%20-%20Maximize%20XOR%2C%20Minimize%20Operations/solution.java) |
 | 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.java) |
 | 2263B | [Min Matrices](https://codeforces.com/contest/2263/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/B%20-%20Min%20Matrices/solution.java) |
+| 2263C1 | [Floor of MEX (Easy Version)](https://codeforces.com/contest/2263/problem/C1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2263/C1%20-%20Floor%20of%20MEX%20(Easy%20Version)/solution.java) |
 
 ### binary search
 
