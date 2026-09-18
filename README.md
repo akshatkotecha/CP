@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 367 | 29 |
+| 368 | 29 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (16)
 - [binary search](#binary-search) (17)
-- [bitmasks](#bitmasks) (17)
+- [bitmasks](#bitmasks) (18)
 - [brute force](#brute-force) (72)
 - [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (71)
@@ -108,6 +108,7 @@
 |---|---------|------------|----------|
 | 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.java) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.java) |
+| 1527A | [And Then There Were K](https://codeforces.com/contest/1527/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1527/A%20-%20And%20Then%20There%20Were%20K/solution.java) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.java) |
