@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 365 | 29 |
+| 367 | 29 |
 
 ---
 
@@ -16,10 +16,10 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (16)
 - [binary search](#binary-search) (17)
-- [bitmasks](#bitmasks) (16)
+- [bitmasks](#bitmasks) (17)
 - [brute force](#brute-force) (72)
-- [combinatorics](#combinatorics) (6)
-- [constructive algorithms](#constructive-algorithms) (70)
+- [combinatorics](#combinatorics) (7)
+- [constructive algorithms](#constructive-algorithms) (71)
 - [data structures](#data-structures) (18)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (27)
@@ -30,10 +30,10 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (182)
-- [implementation](#implementation) (74)
+- [greedy](#greedy) (183)
+- [implementation](#implementation) (75)
 - [interactive](#interactive) (1)
-- [math](#math) (161)
+- [math](#math) (163)
 - [number theory](#number-theory) (39)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (1)
@@ -107,6 +107,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.java) |
+| 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.java) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.java) |
@@ -204,6 +205,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.java) |
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.java) |
 | 1827A | [Counting Orders](https://codeforces.com/contest/1827/problem/A) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1827/A%20-%20Counting%20Orders/solution.java) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
@@ -218,6 +220,7 @@
 | 1312B | [Bogosort](https://codeforces.com/contest/1312/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1312/B%20-%20Bogosort/solution.java) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.java) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.java) |
 | 1527B1 | [Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1527/B1%20-%20Palindrome%20Game%20(easy%20version)/solution.java) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.java) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.java) |
@@ -426,6 +429,7 @@
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.java) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.java) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.java) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.java) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.java) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.java) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
@@ -608,6 +612,7 @@
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.java) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.java) |
 | 1362A | [Johnny and Ancient Computer](https://codeforces.com/contest/1362/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1362/A%20-%20Johnny%20and%20Ancient%20Computer/solution.java) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.java) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.java) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1624/B%20-%20Make%20AP/solution.java) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
@@ -703,6 +708,8 @@
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.java) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.java) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.java) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.java) |
+| 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.java) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.java) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.java) |
 | 1549A | [Gregor and Cryptography](https://codeforces.com/contest/1549/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1549/A%20-%20Gregor%20and%20Cryptography/solution.java) |
