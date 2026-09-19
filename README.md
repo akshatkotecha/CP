@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 369 | 29 |
+| 370 | 29 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (16)
 - [binary search](#binary-search) (17)
-- [bitmasks](#bitmasks) (19)
+- [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (72)
 - [combinatorics](#combinatorics) (7)
 - [constructive algorithms](#constructive-algorithms) (71)
@@ -30,7 +30,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (183)
+- [greedy](#greedy) (184)
 - [implementation](#implementation) (75)
 - [interactive](#interactive) (1)
 - [math](#math) (163)
@@ -40,7 +40,7 @@
 - [sortings](#sortings) (62)
 - [strings](#strings) (36)
 - [trees](#trees) (2)
-- [two pointers](#two-pointers) (20)
+- [two pointers](#two-pointers) (21)
 
 ---
 
@@ -116,6 +116,7 @@
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.java) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.java) |
+| 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.java) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.java) |
 | 2170A | [Maximum Neighborhood](https://codeforces.com/contest/2170/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/A%20-%20Maximum%20Neighborhood/solution.java) |
 | 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.java) |
@@ -474,6 +475,7 @@
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.java) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1834/A%20-%20Unit%20Array/solution.java) |
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1837/B%20-%20Comparison%20String/solution.java) |
+| 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1849/B%20-%20Monsters/solution.java) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.java) |
@@ -1047,6 +1049,7 @@
 | 1827A | [Counting Orders](https://codeforces.com/contest/1827/problem/A) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1827/A%20-%20Counting%20Orders/solution.java) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.java) |
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.java) |
+| 1847B | [Hamon Odyssey](https://codeforces.com/contest/1847/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1847/B%20-%20Hamon%20Odyssey/solution.java) |
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.java) |
 | 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.java) |
 | 2193D | [Monster Game](https://codeforces.com/contest/2193/problem/D) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2193/D%20-%20Monster%20Game/solution.java) |
