@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 370 | 29 |
+| 371 | 29 |
 
 ---
 
@@ -31,13 +31,13 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (184)
-- [implementation](#implementation) (75)
+- [implementation](#implementation) (76)
 - [interactive](#interactive) (1)
 - [math](#math) (163)
 - [number theory](#number-theory) (39)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (62)
+- [sortings](#sortings) (63)
 - [strings](#strings) (36)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (21)
@@ -642,6 +642,7 @@
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.java) |
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1904/A%20-%20Forked!/solution.java) |
 | 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.java) |
+| 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.java) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.java) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2009/B%20-%20osu!mania/solution.java) |
 | 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.java) |
@@ -950,6 +951,7 @@
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
 | 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.java) |
+| 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.java) |
 | 1990A | [Submission Bait](https://codeforces.com/contest/1990/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1990/A%20-%20Submission%20Bait/solution.java) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.java) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.java) |
