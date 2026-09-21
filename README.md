@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 373 | 29 |
+| 374 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (18)
+- [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (72)
@@ -81,6 +81,7 @@
 | 2264B | [Knife's Pill Farm](https://codeforces.com/contest/2264/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/B%20-%20Knife's%20Pill%20Farm/solution.java) |
 | 2266B | [Three Piles](https://codeforces.com/contest/2266/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/B%20-%20Three%20Piles/solution.java) |
 | 2266C | [AND, OR, Sort!](https://codeforces.com/contest/2266/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/C%20-%20AND%2C%20OR%2C%20Sort!/solution.java) |
+| 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.java) |
 
 ### binary search
 
