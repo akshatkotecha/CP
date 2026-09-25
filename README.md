@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 380 | 29 |
+| 381 | 29 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (72)
-- [combinatorics](#combinatorics) (7)
+- [combinatorics](#combinatorics) (8)
 - [constructive algorithms](#constructive-algorithms) (71)
 - [data structures](#data-structures) (18)
 - [dfs and similar](#dfs-and-similar) (5)
@@ -33,11 +33,11 @@
 - [greedy](#greedy) (184)
 - [implementation](#implementation) (76)
 - [interactive](#interactive) (1)
-- [math](#math) (163)
+- [math](#math) (164)
 - [number theory](#number-theory) (39)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (63)
+- [sortings](#sortings) (64)
 - [strings](#strings) (36)
 - [trees](#trees) (2)
 - [two pointers](#two-pointers) (21)
@@ -224,6 +224,7 @@
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.java) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.java) |
+| 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 
 ### constructive algorithms
 
@@ -869,6 +870,7 @@
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/D%20-%20Silhouette/solution.java) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.java) |
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/B%20-%20Gigantomachy/solution.java) |
+| 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 
 ### number theory
 
@@ -995,6 +997,7 @@
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.java) |
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/D%20-%20Silhouette/solution.java) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.java) |
+| 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 
 ### strings
 
