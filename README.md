@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 378 | 29 |
+| 379 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (23)
+- [Uncategorized](#uncategorized) (24)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (72)
@@ -86,6 +86,7 @@
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.java) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.java) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.java) |
+| 2267F1 | [XOR Transformations (Easy Version)](https://codeforces.com/contest/2267/problem/F1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/F1%20-%20XOR%20Transformations%20(Easy%20Version)/solution.java) |
 
 ### binary search
 
