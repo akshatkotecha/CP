@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 383 | 29 |
+| 384 | 29 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [Uncategorized](#uncategorized) (25)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
-- [brute force](#brute-force) (73)
+- [brute force](#brute-force) (74)
 - [combinatorics](#combinatorics) (8)
 - [constructive algorithms](#constructive-algorithms) (71)
 - [data structures](#data-structures) (19)
@@ -33,11 +33,11 @@
 - [greedy](#greedy) (185)
 - [implementation](#implementation) (77)
 - [interactive](#interactive) (1)
-- [math](#math) (164)
+- [math](#math) (165)
 - [number theory](#number-theory) (39)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (64)
+- [sortings](#sortings) (65)
 - [strings](#strings) (36)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (22)
@@ -170,6 +170,7 @@
 | 1873B | [Good Kid](https://codeforces.com/contest/1873/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1873/B%20-%20Good%20Kid/solution.java) |
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.java) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.java) |
+| 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1904/A%20-%20Forked!/solution.java) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
@@ -782,6 +783,7 @@
 | 1877A | [Goals of Victory](https://codeforces.com/contest/1877/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1877/A%20-%20Goals%20of%20Victory/solution.java) |
 | 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.java) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1883/C%20-%20Raspberries/solution.java) |
+| 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.java) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.java) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1901/A%20-%20Line%20Trip/solution.java) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.java) |
@@ -963,6 +965,7 @@
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.java) |
 | 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
 | 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.java) |
+| 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.java) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.java) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.java) |
 | 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.java) |
