@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 375 | 29 |
+| 377 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (20)
+- [Uncategorized](#uncategorized) (22)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (72)
@@ -83,6 +83,8 @@
 | 2266C | [AND, OR, Sort!](https://codeforces.com/contest/2266/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/C%20-%20AND%2C%20OR%2C%20Sort!/solution.java) |
 | 2266D | [Falling Concrete](https://codeforces.com/contest/2266/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/D%20-%20Falling%20Concrete/solution.java) |
 | 2266E | [Prime Destruction](https://codeforces.com/contest/2266/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/E%20-%20Prime%20Destruction/solution.java) |
+| 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.java) |
+| 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.java) |
 
 ### binary search
 
