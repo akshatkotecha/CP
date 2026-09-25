@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 377 | 29 |
+| 378 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (22)
+- [Uncategorized](#uncategorized) (23)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (72)
@@ -85,6 +85,7 @@
 | 2266E | [Prime Destruction](https://codeforces.com/contest/2266/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2266/E%20-%20Prime%20Destruction/solution.java) |
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.java) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.java) |
+| 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.java) |
 
 ### binary search
 
