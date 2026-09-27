@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 387 | 29 |
+| 388 | 29 |
 
 ---
 
@@ -30,8 +30,8 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (185)
-- [implementation](#implementation) (78)
+- [greedy](#greedy) (186)
+- [implementation](#implementation) (79)
 - [interactive](#interactive) (1)
 - [math](#math) (165)
 - [number theory](#number-theory) (39)
@@ -524,6 +524,7 @@
 | 2133B | [Villagers](https://codeforces.com/contest/2133/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2133/B%20-%20Villagers/solution.java) |
 | 2139A | [Maple and Multiplication](https://codeforces.com/contest/2139/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2139/A%20-%20Maple%20and%20Multiplication/solution.java) |
 | 2140A | [Shift Sort](https://codeforces.com/contest/2140/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2140/A%20-%20Shift%20Sort/solution.java) |
+| 2145B | [Deck of Cards](https://codeforces.com/contest/2145/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2145/B%20-%20Deck%20of%20Cards/solution.java) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.java) |
 | 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.java) |
 | 2147A | [Shortest Increasing Path](https://codeforces.com/contest/2147/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2147/A%20-%20Shortest%20Increasing%20Path/solution.java) |
@@ -669,6 +670,7 @@
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.java) |
 | 2117A | [False Alarm](https://codeforces.com/contest/2117/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2117/A%20-%20False%20Alarm/solution.java) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.java) |
+| 2145B | [Deck of Cards](https://codeforces.com/contest/2145/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2145/B%20-%20Deck%20of%20Cards/solution.java) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.java) |
 | 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.java) |
 | 2152A | [Increase or Smash](https://codeforces.com/contest/2152/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2152/A%20-%20Increase%20or%20Smash/solution.java) |
