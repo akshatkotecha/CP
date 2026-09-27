@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 386 | 29 |
+| 387 | 29 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (26)
+- [Uncategorized](#uncategorized) (27)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
 - [brute force](#brute-force) (75)
@@ -89,6 +89,7 @@
 | 2267D | [Backrooms Hill](https://codeforces.com/contest/2267/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/D%20-%20Backrooms%20Hill/solution.java) |
 | 2267F1 | [XOR Transformations (Easy Version)](https://codeforces.com/contest/2267/problem/F1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/F1%20-%20XOR%20Transformations%20(Easy%20Version)/solution.java) |
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.java) |
+| 2269D | [What a SauSaGe! It's All Meat](https://codeforces.com/contest/2269/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/D%20-%20What%20a%20SauSaGe!%20It's%20All%20Meat/solution.java) |
 
 ### binary search
 
