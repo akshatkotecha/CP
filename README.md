@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 384 | 29 |
+| 386 | 29 |
 
 ---
 
@@ -14,10 +14,10 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (25)
+- [Uncategorized](#uncategorized) (26)
 - [binary search](#binary-search) (17)
 - [bitmasks](#bitmasks) (20)
-- [brute force](#brute-force) (74)
+- [brute force](#brute-force) (75)
 - [combinatorics](#combinatorics) (8)
 - [constructive algorithms](#constructive-algorithms) (71)
 - [data structures](#data-structures) (19)
@@ -31,7 +31,7 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (185)
-- [implementation](#implementation) (77)
+- [implementation](#implementation) (78)
 - [interactive](#interactive) (1)
 - [math](#math) (165)
 - [number theory](#number-theory) (39)
@@ -88,6 +88,7 @@
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.java) |
 | 2267D | [Backrooms Hill](https://codeforces.com/contest/2267/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/D%20-%20Backrooms%20Hill/solution.java) |
 | 2267F1 | [XOR Transformations (Easy Version)](https://codeforces.com/contest/2267/problem/F1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/F1%20-%20XOR%20Transformations%20(Easy%20Version)/solution.java) |
+| 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.java) |
 
 ### binary search
 
@@ -214,6 +215,7 @@
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.java) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.java) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.java) |
+| 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
 
 ### combinatorics
 
@@ -701,6 +703,7 @@
 | 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.java) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/A%20-%20Riptide/solution.java) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
+| 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
 
 ### interactive
 
