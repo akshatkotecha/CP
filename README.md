@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 392 | 29 |
+| 395 | 29 |
 
 ---
 
@@ -15,28 +15,28 @@
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (28)
-- [binary search](#binary-search) (17)
-- [bitmasks](#bitmasks) (21)
-- [brute force](#brute-force) (76)
+- [binary search](#binary-search) (18)
+- [bitmasks](#bitmasks) (22)
+- [brute force](#brute-force) (77)
 - [combinatorics](#combinatorics) (9)
-- [constructive algorithms](#constructive-algorithms) (72)
+- [constructive algorithms](#constructive-algorithms) (73)
 - [data structures](#data-structures) (19)
 - [dfs and similar](#dfs-and-similar) (5)
-- [dp](#dp) (27)
+- [dp](#dp) (29)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (12)
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (2)
-- [greedy](#greedy) (186)
+- [graphs](#graphs) (3)
+- [greedy](#greedy) (187)
 - [implementation](#implementation) (80)
 - [interactive](#interactive) (1)
-- [math](#math) (167)
+- [math](#math) (169)
 - [number theory](#number-theory) (40)
 - [schedules](#schedules) (3)
-- [shortest paths](#shortest-paths) (1)
+- [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (66)
 - [strings](#strings) (36)
 - [trees](#trees) (3)
@@ -101,6 +101,7 @@
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.java) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.java) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.java) |
+| 1776L | [Controllers](https://codeforces.com/contest/1776/problem/L) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1776/L%20-%20Controllers/solution.java) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.java) |
 | 2114A | [Square Year](https://codeforces.com/contest/2114/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2114/A%20-%20Square%20Year/solution.java) |
 | 2170C | [Quotient and Remainder](https://codeforces.com/contest/2170/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2170/C%20-%20Quotient%20and%20Remainder/solution.java) |
@@ -126,6 +127,7 @@
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.java) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.java) |
+| 1646C | [Factorials and Powers of Two](https://codeforces.com/contest/1646/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1646/C%20-%20Factorials%20and%20Powers%20of%20Two/solution.java) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.java) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.java) |
@@ -153,6 +155,7 @@
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.java) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.java) |
 | 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.java) |
+| 1646C | [Factorials and Powers of Two](https://codeforces.com/contest/1646/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1646/C%20-%20Factorials%20and%20Powers%20of%20Two/solution.java) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.java) |
 | 1673B | [A Perfectly Balanced String?](https://codeforces.com/contest/1673/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1673/B%20-%20A%20Perfectly%20Balanced%20String%3F/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1679/A%20-%20AvtoBus/solution.java) |
@@ -250,6 +253,7 @@
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.java) |
 | 1614B | [Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1614/B%20-%20Divan%20and%20a%20New%20Project%20/solution.java) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.java) |
+| 1646C | [Factorials and Powers of Two](https://codeforces.com/contest/1646/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1646/C%20-%20Factorials%20and%20Powers%20of%20Two/solution.java) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.java) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.java) |
@@ -351,8 +355,10 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.java) |
+| 1418C | [Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1418/C%20-%20Mortal%20Kombat%20Tower/solution.java) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.java) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.java) |
+| 1646C | [Factorials and Powers of Two](https://codeforces.com/contest/1646/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1646/C%20-%20Factorials%20and%20Powers%20of%20Two/solution.java) |
 | 1791E | [Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1791/E%20-%20Negatives%20and%20Positives/solution.java) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.java) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.java) |
@@ -435,6 +441,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1418C | [Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1418/C%20-%20Mortal%20Kombat%20Tower/solution.java) |
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.java) |
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.java) |
 
@@ -447,6 +454,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.java) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.java) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.java) |
+| 1418C | [Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1418/C%20-%20Mortal%20Kombat%20Tower/solution.java) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.java) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.java) |
 | 1447B | [Numbers Box](https://codeforces.com/contest/1447/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1447/B%20-%20Numbers%20Box/solution.java) |
@@ -754,6 +762,7 @@
 | 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.java) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.java) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1624/B%20-%20Make%20AP/solution.java) |
+| 1646C | [Factorials and Powers of Two](https://codeforces.com/contest/1646/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1646/C%20-%20Factorials%20and%20Powers%20of%20Two/solution.java) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.java) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.java) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.java) |
@@ -764,6 +773,7 @@
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.java) |
 | 1734C | [Removing Smallest Multiples](https://codeforces.com/contest/1734/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1734/C%20-%20Removing%20Smallest%20Multiples/solution.java) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.java) |
+| 1776L | [Controllers](https://codeforces.com/contest/1776/problem/L) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1776/L%20-%20Controllers/solution.java) |
 | 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.java) |
 | 1780B | [GCD Partition](https://codeforces.com/contest/1780/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1780/B%20-%20GCD%20Partition/solution.java) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.java) |
@@ -949,6 +959,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1418C | [Mortal Kombat Tower](https://codeforces.com/contest/1418/problem/C) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1418/C%20-%20Mortal%20Kombat%20Tower/solution.java) |
 | 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
 
 ### sortings
