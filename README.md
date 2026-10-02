@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 395 | 29 |
+| 396 | 29 |
 
 ---
 
@@ -38,7 +38,7 @@
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (66)
-- [strings](#strings) (36)
+- [strings](#strings) (37)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (22)
 
@@ -1037,6 +1037,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.java) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.java) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.java) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.java) |
