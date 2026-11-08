@@ -1,38 +1,341 @@
-<h2><a href="https://codeforces.com/contest/2280/problem/A" target="_blank" rel="noopener noreferrer">2280A — Are They the Same?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | Java 21 |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2280A](https://codeforces.com/contest/2280/problem/A) |
-
-## Topics
-`implementation`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Are They the Same?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>  </p><p>You are given two integer arrays $$$a$$$ and $$$b$$$, each of length $$$n$$$. Furthermore, you are given an integer $$$k$$$.</p><p>You are allowed to perform any of the following operations <span class="tex-font-style-bf">zero or more times</span>: </p><ul> <li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := 2\cdot a[i] + k$$$. </li><li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := a[i] + 2$$$. </li><li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := a[i] - 2$$$. </li></ul><p>Determine if there is a way to apply these operations such that the resulting array $$$a$$$ is a permutation$$$^{\dagger}$$$ of $$$b$$$. Note that there are no restrictions on the values of the array during the process: elements may become negative or arbitrarily large.</p><p>$$$^{\dagger}$$$An array $$$a$$$ is a permutation of an array $$$b$$$ if $$$a$$$ consists of the elements of $$$b$$$ in arbitrary order. For example, $$$[4,2,3,4]$$$ is a permutation of $$$[3,2,4,4]$$$, while $$$[1,2,2]$$$ is not a permutation of $$$[1,2,3]$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1\le n\le 100$$$, $$$0\le k\le 10^6$$$) — $$$n$$$ is the length of $$$a$$$ and $$$b$$$.</p><p>The second line of each testcase contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \le a_i \le 10^6$$$).</p><p>The third line of each testcase contains $$$n$$$ integers $$$b_1, b_2, \ldots, b_n$$$ ($$$0 \le b_i \le 10^6$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if it is possible to transform $$$a$$$ into a permutation of $$$b$$$, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You can output the answer in any case (upper or lower). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009976685012686445" id="id00501100791009982" class="input-output-copier">Copy</div></div><pre data-content="5
-3 4
-1 2 7
-5 3 8
-1 1
-0
-1
-1 1
-1
-0
-6 1
-0 0 0 0 0 0
-1 3 7 15 31 63
-2 1000000
-999999 1
-1000000 1
-" id="id009976685012686445"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 7</div><div class="test-example-line test-example-line-odd test-example-line-1">5 3 8</div><div class="test-example-line test-example-line-even test-example-line-2">1 1</div><div class="test-example-line test-example-line-even test-example-line-2">0</div><div class="test-example-line test-example-line-even test-example-line-2">1</div><div class="test-example-line test-example-line-odd test-example-line-3">1 1</div><div class="test-example-line test-example-line-odd test-example-line-3">1</div><div class="test-example-line test-example-line-odd test-example-line-3">0</div><div class="test-example-line test-example-line-even test-example-line-4">6 1</div><div class="test-example-line test-example-line-even test-example-line-4">0 0 0 0 0 0</div><div class="test-example-line test-example-line-even test-example-line-4">1 3 7 15 31 63</div><div class="test-example-line test-example-line-odd test-example-line-5">2 1000000</div><div class="test-example-line test-example-line-odd test-example-line-5">999999 1</div><div class="test-example-line test-example-line-odd test-example-line-5">1000000 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005340511154852288" id="id008876528081894186" class="input-output-copier">Copy</div></div><pre data-content="YES
-YES
-NO
-YES
-YES
-" id="id005340511154852288"><div class="test-example-line test-example-line-odd test-example-line-1">YES</div><div class="test-example-line test-example-line-even test-example-line-2">YES</div><div class="test-example-line test-example-line-odd test-example-line-3">NO</div><div class="test-example-line test-example-line-even test-example-line-4">YES</div><div class="test-example-line test-example-line-odd test-example-line-5">YES</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, consider applying the following operations: </p><ul> <li> Apply $$$a[1] := a[1] + 2$$$ </li><li> Apply $$$a[2] := 2 \cdot a[2] + k$$$ </li><li> Apply $$$a[3] := a[3] - 2$$$ </li></ul> As a result of these operations, $$$a$$$ becomes $$$[3, 8, 5]$$$, which is a permutation of $$$[5, 3, 8]$$$.<p>In the second test case, we can apply the operation $$$a[1] := 2\cdot a[1] + k$$$ to make $$$a = [1]$$$.</p><p>In the third test case, we can show that there is no way to make $$$a = [0]$$$.</p></div>
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+public class Codechef
+{
+    static long mod = 1000000007;
+ 
+    // ==================== GCD / LCM ====================
+ 
+    public static int gcd(int a, int b) {
+        if (b == 0) return a;
+        return gcd(b, a % b);
+    }
+ 
+    public static int lcm(int a, int b) {
+        return (a * b) / gcd(a, b);
+    }
+    public static long gcd(long a, long b) {
+        if (b == 0) return a;
+        return gcd(b, a % b);
+    }
+ 
+    public static long lcm(long a, long b) {
+        return (a * b) / gcd(a, b);
+    }
+ 
+    // ==================== PRIME ====================
+ 
+    public static boolean isPrime(int n) {
+        if (n < 2) return false;
+        if (n < 4) return true;
+        if (n % 2 == 0 || n % 3 == 0) return false;
+ 
+        for (int i = 5; i * i <= n; i += 6) {
+            if (n % i == 0 || n % (i + 2) == 0)
+                return false;
+        }
+ 
+        return true;
+    }
+ 
+    public static boolean[] sievePrime(int n) {
+        boolean[] p = new boolean[n + 1];
+ 
+        Arrays.fill(p, true);
+ 
+        if (n >= 0) p[0] = false;
+        if (n >= 1) p[1] = false;
+ 
+        for (int i = 2; (int) i * i <= n; i++) {
+            if (p[i]) {
+                for (int j = i * i; j <= n; j += i)
+                    p[j] = false;
+            }
+        }
+ 
+        return p;
+    }
+ 
+    // ==================== SORTING ====================
+ 
+    public static void sort(int[] a) {
+        Arrays.sort(a);
+    }
+ 
+    public static void sort(long[] a) {
+        Arrays.sort(a);
+    }
+ 
+    public static void reverseSort(int[] a) {
+        Arrays.sort(a);
+ 
+        int left = 0;
+        int right = a.length - 1;
+ 
+        while (left < right) {
+            int temp = a[left];
+            a[left] = a[right];
+            a[right] = temp;
+ 
+            left++;
+            right--;
+        }
+    }
+ 
+    // ==================== BINARY SEARCH ====================
+ 
+    public static int lowerbound(int[] a, int value) {
+        int low = 0;
+        int high = a.length;
+ 
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+ 
+            if (a[mid] < value)
+                low = mid + 1;
+            else
+                high = mid;
+        }
+ 
+        return low;
+    }
+ 
+    public static int upperbound(int[] a, int value) {
+        int low = 0;
+        int high = a.length;
+ 
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+ 
+            if (a[mid] <= value)
+                low = mid + 1;
+            else
+                high = mid;
+        }
+ 
+        return low;
+    }
+ 
+    // ==================== HASHMAP HELPERS ====================
+ 
+    public static Map<Integer, List<Integer>> getIndexMap(int[] nums) {
+        Map<Integer, List<Integer>> map = new HashMap<>();
+ 
+        for (int i = 0; i < nums.length; i++) {
+            map.computeIfAbsent(nums[i], k -> new ArrayList<>()).add(i);
+        }
+ 
+        return map;
+    }
+ 
+    // ==================== PRINT HELPERS ====================
+ 
+    public static void yn(boolean b) {
+        System.out.println(b ? "YES" : "NO");
+    }
+ 
+    // Single values
+ 
+    public static void print(int x) {
+        System.out.println(x);
+    }
+ 
+    public static void print(long x) {
+        System.out.println(x);
+    }
+ 
+    public static void print(double x) {
+        System.out.println(x);
+    }
+ 
+    public static void print(String x) {
+        System.out.println(x);
+    }
+ 
+    // Two values
+ 
+    public static void print(int a, int b) {
+        System.out.println(a + " " + b);
+    }
+ 
+    public static void print(long a, long b) {
+        System.out.println(a + " " + b);
+    }
+ 
+    public static void print(String a, String b) {
+        System.out.println(a + " " + b);
+    }
+ 
+    // Arrays
+ 
+    public static void print(int[] a) {
+        for (int x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void print(long[] a) {
+        for (long x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void print(double[] a) {
+        for (double x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    public static void print(String[] a) {
+        for (String x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    // Lists
+ 
+    public static void print(List<?> a) {
+        for (Object x : a)
+            System.out.print(x + " ");
+        System.out.println();
+    }
+ 
+    // Matrix
+ 
+    public static void print(int[][] a) {
+        for (int[] row : a)
+            print(row);
+    }
+ 
+    // ==================== ARRAY HELPERS ====================
+ 
+    public static int min(int a, int b) {
+        return Math.min(a, b);
+    }
+ 
+    public static int max(int a, int b) {
+        return Math.max(a, b);
+    }
+ 
+    public static long min(long a, long b) {
+        return Math.min(a, b);
+    }
+ 
+    public static long max(long a, long b) {
+        return Math.max(a, b);
+    }
+ 
+    public static int minArray(int[] a) {
+        int ans = a[0];
+ 
+        for (int x : a)
+            ans = Math.min(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static int maxArray(int[] a) {
+        int ans = a[0];
+ 
+        for (int x : a)
+            ans = Math.max(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static long minArray(long[] a) {
+        long ans = a[0];
+ 
+        for (long x : a)
+            ans = Math.min(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static long maxArray(long[] a) {
+        long ans = a[0];
+ 
+        for (long x : a)
+            ans = Math.max(ans, x);
+ 
+        return ans;
+    }
+ 
+    public static int sum(int[] a) {
+        int ans = 0;
+ 
+        for (int x : a)
+            ans += x;
+ 
+        return ans;
+    }
+ 
+    public static long sum(long[] a) {
+        long ans = 0;
+ 
+        for (long x : a)
+            ans += x;
+ 
+        return ans;
+    }
+ 
+    // ==================== MATH HELPERS ====================
+ 
+    public static long power(long a, long b) {
+        long ans = 1;
+ 
+        while (b > 0) {
+            if ((b & 1) == 1)
+                ans *= a;
+ 
+            a *= a;
+            b >>= 1;
+        } 
+ 
+        return ans;
+    }
+ 
+    public static long powerMod(long a, long b) {
+        long ans = 1;
+ 
+        while (b > 0) {
+            if ((b & 1) == 1)
+                ans = (ans * a) % mod;
+ 
+            a = (a * a) % mod;
+            b >>= 1;
+        }
+ 
+        return ans;
+    }
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+        	//boolean prime[]=sievePrime(1000000);
+		while(t-->0) 
+		{
+			int n=sc.nextInt();
+            int k=sc.nextInt();
+            int a[]=new int[n];
+            int b[]=new int[n];
+            for(int i=0;i<n;i++) a[i]=sc.nextInt();
+            for(int i=0;i<n;i++) b[i]=sc.nextInt();
+            int evena=0;
+            int evenb=0;
+            for(int num : a){
+                if(num%2==0) evena++;
+            }
+            for(int num : b){
+                if(num%2==0) evenb++;
+            }
+            boolean ok=false;
+            if(k%2==0 && evenb>=evena) ok=true;
+            if(k%2==1 && evena>=evenb) ok=true;
+            yn(ok);
+            
+		}
+	}
+}
