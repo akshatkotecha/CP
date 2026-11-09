@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 401 | 29 |
+| 402 | 29 |
 
 ---
 
@@ -27,11 +27,11 @@
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
 - [games](#games) (12)
-- [geometry](#geometry) (5)
+- [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (189)
-- [implementation](#implementation) (83)
+- [implementation](#implementation) (84)
 - [interactive](#interactive) (1)
 - [math](#math) (169)
 - [number theory](#number-theory) (40)
@@ -430,6 +430,7 @@
 | 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1869/B%20-%202D%20Traveling/solution.java) |
 | 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.java) |
 | 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.java) |
+| 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.java) |
 
 ### graph matchings
 
@@ -724,6 +725,7 @@
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/A%20-%20Riptide/solution.java) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
+| 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.java) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
 | 2280A | [Are They the Same?](https://codeforces.com/contest/2280/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2280/A%20-%20Are%20They%20the%20Same%3F/solution.java) |
