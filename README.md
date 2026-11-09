@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 400 | 29 |
+| 401 | 29 |
 
 ---
 
@@ -30,7 +30,7 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (188)
+- [greedy](#greedy) (189)
 - [implementation](#implementation) (83)
 - [interactive](#interactive) (1)
 - [math](#math) (169)
@@ -638,6 +638,7 @@
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.java) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
 | 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.java) |
+| 2278C | [Math and Physics](https://codeforces.com/contest/2278/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/C%20-%20Math%20and%20Physics/solution.java) |
 
 ### implementation
 
