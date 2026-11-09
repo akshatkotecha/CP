@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 396 | 29 |
+| 400 | 29 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (77)
 - [combinatorics](#combinatorics) (9)
-- [constructive algorithms](#constructive-algorithms) (73)
+- [constructive algorithms](#constructive-algorithms) (74)
 - [data structures](#data-structures) (19)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (29)
@@ -30,15 +30,15 @@
 - [geometry](#geometry) (5)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (187)
-- [implementation](#implementation) (80)
+- [greedy](#greedy) (188)
+- [implementation](#implementation) (83)
 - [interactive](#interactive) (1)
 - [math](#math) (169)
 - [number theory](#number-theory) (40)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (66)
-- [strings](#strings) (37)
+- [sortings](#sortings) (67)
+- [strings](#strings) (39)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (22)
 
@@ -315,6 +315,7 @@
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/D%20-%20Silhouette/solution.java) |
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.java) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
+| 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.java) |
 
 ### data structures
 
@@ -636,6 +637,7 @@
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.java) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.java) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
+| 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.java) |
 
 ### implementation
 
@@ -721,6 +723,9 @@
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/A%20-%20Riptide/solution.java) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
+| 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
+| 2280A | [Are They the Same?](https://codeforces.com/contest/2280/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2280/A%20-%20Are%20They%20the%20Same%3F/solution.java) |
 
 ### interactive
 
@@ -1032,6 +1037,7 @@
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/D%20-%20Silhouette/solution.java) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.java) |
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
+| 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
 
 ### strings
 
@@ -1074,6 +1080,8 @@
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.java) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.java) |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
+| 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
 
 ### trees
 
