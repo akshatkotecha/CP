@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 402 | 29 |
+| 403 | 29 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [brute force](#brute-force) (77)
 - [combinatorics](#combinatorics) (9)
 - [constructive algorithms](#constructive-algorithms) (74)
-- [data structures](#data-structures) (19)
+- [data structures](#data-structures) (20)
 - [dfs and similar](#dfs-and-similar) (5)
 - [dp](#dp) (29)
 - [dsu](#dsu) (2)
@@ -31,7 +31,7 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (189)
-- [implementation](#implementation) (84)
+- [implementation](#implementation) (85)
 - [interactive](#interactive) (1)
 - [math](#math) (169)
 - [number theory](#number-theory) (40)
@@ -340,6 +340,7 @@
 | 2227D | [Palindromex](https://codeforces.com/contest/2227/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2227/D%20-%20Palindromex/solution.java) |
 | 2252A | [Boss Fight](https://codeforces.com/contest/2252/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2252/A%20-%20Boss%20Fight/solution.java) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.java) |
+| 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.java) |
 
 ### dfs and similar
 
@@ -726,6 +727,7 @@
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
 | 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.java) |
+| 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.java) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
 | 2280A | [Are They the Same?](https://codeforces.com/contest/2280/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2280/A%20-%20Are%20They%20the%20Same%3F/solution.java) |
