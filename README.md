@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 407 | 30 |
+| 408 | 30 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (28)
+- [Uncategorized](#uncategorized) (29)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (77)
@@ -92,6 +92,7 @@
 | 2267F1 | [XOR Transformations (Easy Version)](https://codeforces.com/contest/2267/problem/F1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/F1%20-%20XOR%20Transformations%20(Easy%20Version)/solution.java) |
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.java) |
 | 2269D | [What a SauSaGe! It's All Meat](https://codeforces.com/contest/2269/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/D%20-%20What%20a%20SauSaGe!%20It's%20All%20Meat/solution.java) |
+| 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/A%20-%20Three%20Piles/solution.java) |
 
 ### binary search
 
