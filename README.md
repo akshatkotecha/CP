@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 406 | 29 |
+| 407 | 30 |
 
 ---
 
@@ -21,8 +21,8 @@
 - [combinatorics](#combinatorics) (9)
 - [constructive algorithms](#constructive-algorithms) (75)
 - [data structures](#data-structures) (20)
-- [dfs and similar](#dfs-and-similar) (5)
-- [dp](#dp) (29)
+- [dfs and similar](#dfs-and-similar) (6)
+- [dp](#dp) (30)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
@@ -31,9 +31,10 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (191)
-- [implementation](#implementation) (85)
+- [hashing](#hashing) (1)
+- [implementation](#implementation) (86)
 - [interactive](#interactive) (1)
-- [math](#math) (172)
+- [math](#math) (173)
 - [number theory](#number-theory) (41)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
@@ -352,6 +353,7 @@
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.java) |
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.java) |
 | 2257C | [Spying on the Beaver](https://codeforces.com/contest/2257/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/C%20-%20Spying%20on%20the%20Beaver/solution.java) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
 
 ### dp
 
@@ -386,6 +388,7 @@
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.java) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.java) |
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.java) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
 
 ### dsu
 
@@ -645,6 +648,12 @@
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
+
 ### implementation
 
 | # | Problem | Difficulty | Solution |
@@ -729,6 +738,7 @@
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/A%20-%20Riptide/solution.java) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
 | 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.java) |
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.java) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
@@ -915,6 +925,7 @@
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/B%20-%20Gigantomachy/solution.java) |
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 | 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.java) |
+| 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 
