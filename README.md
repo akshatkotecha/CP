@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 405 | 29 |
+| 406 | 29 |
 
 ---
 
@@ -30,11 +30,11 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (190)
+- [greedy](#greedy) (191)
 - [implementation](#implementation) (85)
 - [interactive](#interactive) (1)
-- [math](#math) (171)
-- [number theory](#number-theory) (40)
+- [math](#math) (172)
+- [number theory](#number-theory) (41)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (67)
@@ -643,6 +643,7 @@
 | 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.java) |
 | 2278C | [Math and Physics](https://codeforces.com/contest/2278/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/C%20-%20Math%20and%20Physics/solution.java) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
+| 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 
 ### implementation
 
@@ -915,6 +916,7 @@
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 | 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.java) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
+| 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 
 ### number theory
 
@@ -960,6 +962,7 @@
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.java) |
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.java) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.java) |
+| 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 
 ### schedules
 
