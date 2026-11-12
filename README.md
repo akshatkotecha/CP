@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 410 | 30 |
+| 411 | 30 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (31)
+- [Uncategorized](#uncategorized) (32)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (77)
@@ -95,6 +95,7 @@
 | 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/A%20-%20Three%20Piles/solution.java) |
 | 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.java) |
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.java) |
+| 2290D | [Letters Down](https://codeforces.com/contest/2290/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/D%20-%20Letters%20Down/solution.java) |
 
 ### binary search
 
