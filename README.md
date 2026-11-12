@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 409 | 30 |
+| 410 | 30 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (30)
+- [Uncategorized](#uncategorized) (31)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (22)
 - [brute force](#brute-force) (77)
@@ -94,6 +94,7 @@
 | 2269D | [What a SauSaGe! It's All Meat](https://codeforces.com/contest/2269/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/D%20-%20What%20a%20SauSaGe!%20It's%20All%20Meat/solution.java) |
 | 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/A%20-%20Three%20Piles/solution.java) |
 | 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.java) |
+| 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.java) |
 
 ### binary search
 
