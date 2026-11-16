@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 411 | 30 |
+| 415 | 30 |
 
 ---
 
@@ -14,10 +14,10 @@
 
 - [*special](#special) (4)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (32)
+- [Uncategorized](#uncategorized) (33)
 - [binary search](#binary-search) (18)
-- [bitmasks](#bitmasks) (22)
-- [brute force](#brute-force) (77)
+- [bitmasks](#bitmasks) (23)
+- [brute force](#brute-force) (78)
 - [combinatorics](#combinatorics) (9)
 - [constructive algorithms](#constructive-algorithms) (75)
 - [data structures](#data-structures) (20)
@@ -30,12 +30,12 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (191)
+- [greedy](#greedy) (193)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (86)
+- [implementation](#implementation) (87)
 - [interactive](#interactive) (1)
-- [math](#math) (173)
-- [number theory](#number-theory) (41)
+- [math](#math) (176)
+- [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (67)
@@ -92,6 +92,7 @@
 | 2267F1 | [XOR Transformations (Easy Version)](https://codeforces.com/contest/2267/problem/F1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2267/F1%20-%20XOR%20Transformations%20(Easy%20Version)/solution.java) |
 | 2269C | [K Is Important](https://codeforces.com/contest/2269/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/C%20-%20K%20Is%20Important/solution.java) |
 | 2269D | [What a SauSaGe! It's All Meat](https://codeforces.com/contest/2269/problem/D) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/D%20-%20What%20a%20SauSaGe!%20It's%20All%20Meat/solution.java) |
+| 2285A | [Composite Permutation](https://codeforces.com/contest/2285/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/A%20-%20Composite%20Permutation/solution.java) |
 | 2290A | [Three Piles](https://codeforces.com/contest/2290/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/A%20-%20Three%20Piles/solution.java) |
 | 2290B | [Stubborn Pen](https://codeforces.com/contest/2290/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/B%20-%20Stubborn%20Pen/solution.java) |
 | 2290C | [Books on a Shelf](https://codeforces.com/contest/2290/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/C%20-%20Books%20on%20a%20Shelf/solution.java) |
@@ -146,6 +147,7 @@
 | 2214C | [And?](https://codeforces.com/contest/2214/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2214/C%20-%20And%3F/solution.java) |
 | 2218E | [The 67th XOR Problem](https://codeforces.com/contest/2218/problem/E) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2218/E%20-%20The%2067th%20XOR%20Problem/solution.java) |
 | 2225D | [Exceptional Segments](https://codeforces.com/contest/2225/problem/D) | 1500 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2225/D%20-%20Exceptional%20Segments/solution.java) |
+| 2261B | [What's the Capital of France?](https://codeforces.com/contest/2261/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2261/B%20-%20What's%20the%20Capital%20of%20France%3F/solution.java) |
 
 ### brute force
 
@@ -225,6 +227,7 @@
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.java) |
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.java) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.java) |
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.java) |
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.java) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
@@ -647,10 +650,12 @@
 | 2254C1 | [Marenol (easy version)](https://codeforces.com/contest/2254/problem/C1) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C1%20-%20Marenol%20(easy%20version)/solution.java) |
 | 2254C2 | [Marenol (hard version)](https://codeforces.com/contest/2254/problem/C2) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/C2%20-%20Marenol%20(hard%20version)/solution.java) |
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
+| 2261B | [What's the Capital of France?](https://codeforces.com/contest/2261/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2261/B%20-%20What's%20the%20Capital%20of%20France%3F/solution.java) |
 | 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.java) |
 | 2278C | [Math and Physics](https://codeforces.com/contest/2278/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/C%20-%20Math%20and%20Physics/solution.java) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
+| 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
 
 ### hashing
 
@@ -739,6 +744,7 @@
 | 2228A | [Marisa Steals Reimu's Takeout](https://codeforces.com/contest/2228/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2228/A%20-%20Marisa%20Steals%20Reimu's%20Takeout/solution.java) |
 | 2228B | [Remilia Plays Soku](https://codeforces.com/contest/2228/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2228/B%20-%20Remilia%20Plays%20Soku/solution.java) |
 | 2230A | [Optimal Purchase](https://codeforces.com/contest/2230/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2230/A%20-%20Optimal%20Purchase/solution.java) |
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.java) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/A%20-%20Riptide/solution.java) |
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/B%20-%20Evanescent/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
@@ -923,15 +929,18 @@
 | 2244C | [Stepan and Permutation](https://codeforces.com/contest/2244/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/C%20-%20Stepan%20and%20Permutation/solution.java) |
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.java) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.java) |
+| 2250A | [Threshold Movement](https://codeforces.com/contest/2250/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2250/A%20-%20Threshold%20Movement/solution.java) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.java) |
 | 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2254/D%20-%20Silhouette/solution.java) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.java) |
 | 2257B | [Gigantomachy](https://codeforces.com/contest/2257/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/B%20-%20Gigantomachy/solution.java) |
+| 2261B | [What's the Capital of France?](https://codeforces.com/contest/2261/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2261/B%20-%20What's%20the%20Capital%20of%20France%3F/solution.java) |
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 | 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.java) |
 | 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
+| 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
 
 ### number theory
 
@@ -978,6 +987,7 @@
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.java) |
 | 2253A | [The Best Card](https://codeforces.com/contest/2253/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/A%20-%20The%20Best%20Card/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
+| 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
 
 ### schedules
 
