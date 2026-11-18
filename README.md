@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 415 | 30 |
+| 417 | 30 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (23)
 - [brute force](#brute-force) (78)
-- [combinatorics](#combinatorics) (9)
+- [combinatorics](#combinatorics) (10)
 - [constructive algorithms](#constructive-algorithms) (75)
 - [data structures](#data-structures) (20)
 - [dfs and similar](#dfs-and-similar) (6)
@@ -26,7 +26,7 @@
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (12)
+- [games](#games) (13)
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
@@ -34,12 +34,12 @@
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (87)
 - [interactive](#interactive) (1)
-- [math](#math) (176)
+- [math](#math) (177)
 - [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (67)
-- [strings](#strings) (39)
+- [strings](#strings) (40)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (23)
 
@@ -245,6 +245,7 @@
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.java) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.java) |
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
+| 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/B%20-%20Diverse%20String/solution.java) |
 
 ### constructive algorithms
 
@@ -432,6 +433,7 @@
 | 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.java) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.java) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.java) |
+| 2271B | [MEX Game](https://codeforces.com/contest/2271/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2271/B%20-%20MEX%20Game/solution.java) |
 
 ### geometry
 
@@ -941,6 +943,7 @@
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 | 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
+| 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/B%20-%20Diverse%20String/solution.java) |
 
 ### number theory
 
@@ -1119,6 +1122,7 @@
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.java) |
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
+| 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/B%20-%20Diverse%20String/solution.java) |
 
 ### trees
 
