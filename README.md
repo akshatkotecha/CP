@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 417 | 30 |
+| 418 | 30 |
 
 ---
 
@@ -34,12 +34,12 @@
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (87)
 - [interactive](#interactive) (1)
-- [math](#math) (177)
+- [math](#math) (178)
 - [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (67)
-- [strings](#strings) (40)
+- [strings](#strings) (41)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (23)
 
@@ -866,6 +866,7 @@
 | 2140B | [Another Divisibility Problem](https://codeforces.com/contest/2140/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2140/B%20-%20Another%20Divisibility%20Problem/solution.java) |
 | 2145A | [Candies for Nephews](https://codeforces.com/contest/2145/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2145/A%20-%20Candies%20for%20Nephews/solution.java) |
 | 2149A | [Be Positive](https://codeforces.com/contest/2149/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2149/A%20-%20Be%20Positive/solution.java) |
+| 2151A | [Incremental Subarray](https://codeforces.com/contest/2151/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2151/A%20-%20Incremental%20Subarray/solution.java) |
 | 2155A | [El fucho](https://codeforces.com/contest/2155/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2155/A%20-%20El%20fucho/solution.java) |
 | 2158A | [Suspension](https://codeforces.com/contest/2158/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2158/A%20-%20Suspension/solution.java) |
 | 2158B | [Split](https://codeforces.com/contest/2158/problem/B) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2158/B%20-%20Split/solution.java) |
@@ -1102,6 +1103,7 @@
 | 1952A | [Are You a Robot, Again?](https://codeforces.com/contest/1952/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1952/A%20-%20Are%20You%20a%20Robot%2C%20Again%3F/solution.java) |
 | 2094A | [Trippi Troppi](https://codeforces.com/contest/2094/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2094/A%20-%20Trippi%20Troppi/solution.java) |
 | 2110B | [Down with Brackets](https://codeforces.com/contest/2110/problem/B) | 900 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2110/B%20-%20Down%20with%20Brackets/solution.java) |
+| 2151A | [Incremental Subarray](https://codeforces.com/contest/2151/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2151/A%20-%20Incremental%20Subarray/solution.java) |
 | 2166A | [Same Difference](https://codeforces.com/contest/2166/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2166/A%20-%20Same%20Difference/solution.java) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2167/B%20-%20Your%20Name/solution.java) |
 | 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.java) |
