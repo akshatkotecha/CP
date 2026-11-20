@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 418 | 30 |
+| 419 | 30 |
 
 ---
 
@@ -22,11 +22,11 @@
 - [constructive algorithms](#constructive-algorithms) (75)
 - [data structures](#data-structures) (20)
 - [dfs and similar](#dfs-and-similar) (6)
-- [dp](#dp) (30)
+- [dp](#dp) (31)
 - [dsu](#dsu) (2)
 - [expression parsing](#expression-parsing) (1)
 - [fft](#fft) (1)
-- [games](#games) (13)
+- [games](#games) (14)
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
@@ -34,7 +34,7 @@
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (87)
 - [interactive](#interactive) (1)
-- [math](#math) (178)
+- [math](#math) (179)
 - [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
@@ -397,6 +397,7 @@
 | 2244D | [Yaroslav and Productivity](https://codeforces.com/contest/2244/problem/D) | 1200 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/D%20-%20Yaroslav%20and%20Productivity/solution.java) |
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.java) |
 | 2274A | [The Projections of Paco](https://codeforces.com/contest/2274/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2274/A%20-%20The%20Projections%20of%20Paco/solution.java) |
+| 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/E%20-%20Avalanche/solution.java) |
 
 ### dsu
 
@@ -434,6 +435,7 @@
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.java) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.java) |
 | 2271B | [MEX Game](https://codeforces.com/contest/2271/problem/B) | 1000 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2271/B%20-%20MEX%20Game/solution.java) |
+| 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/E%20-%20Avalanche/solution.java) |
 
 ### geometry
 
@@ -945,6 +947,7 @@
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 | 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
 | 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/B%20-%20Diverse%20String/solution.java) |
+| 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/E%20-%20Avalanche/solution.java) |
 
 ### number theory
 
