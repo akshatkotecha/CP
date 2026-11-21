@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 419 | 30 |
+| 420 | 30 |
 
 ---
 
@@ -32,7 +32,7 @@
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (193)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (87)
+- [implementation](#implementation) (88)
 - [interactive](#interactive) (1)
 - [math](#math) (179)
 - [number theory](#number-theory) (42)
@@ -709,6 +709,7 @@
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.java) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2009/B%20-%20osu!mania/solution.java) |
 | 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.java) |
+| 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2037/A%20-%20Twice/solution.java) |
 | 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.java) |
 | 2090A | [Treasure Hunt](https://codeforces.com/contest/2090/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2090/A%20-%20Treasure%20Hunt/solution.java) |
 | 2110A | [Fashionable Array](https://codeforces.com/contest/2110/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2110/A%20-%20Fashionable%20Array/solution.java) |
