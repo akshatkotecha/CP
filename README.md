@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 420 | 30 |
+| 422 | 30 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [Uncategorized](#uncategorized) (33)
 - [binary search](#binary-search) (18)
 - [bitmasks](#bitmasks) (23)
-- [brute force](#brute-force) (78)
+- [brute force](#brute-force) (79)
 - [combinatorics](#combinatorics) (10)
 - [constructive algorithms](#constructive-algorithms) (75)
 - [data structures](#data-structures) (20)
@@ -34,7 +34,7 @@
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (88)
 - [interactive](#interactive) (1)
-- [math](#math) (179)
+- [math](#math) (181)
 - [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
@@ -231,6 +231,7 @@
 | 2253B | [Hypercarp and the Control Panel](https://codeforces.com/contest/2253/problem/B) | 1100 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2253/B%20-%20Hypercarp%20and%20the%20Control%20Panel/solution.java) |
 | 2257A | [Creating Abbreviations](https://codeforces.com/contest/2257/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2257/A%20-%20Creating%20Abbreviations/solution.java) |
 | 2269B | [KiaKio and Squared Numbers](https://codeforces.com/contest/2269/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2269/B%20-%20KiaKio%20and%20Squared%20Numbers/solution.java) |
+| 2288A | [Youmu Konpaku and the Duel](https://codeforces.com/contest/2288/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2288/A%20-%20Youmu%20Konpaku%20and%20the%20Duel/solution.java) |
 
 ### combinatorics
 
@@ -948,6 +949,8 @@
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 | 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
 | 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/B%20-%20Diverse%20String/solution.java) |
+| 2288A | [Youmu Konpaku and the Duel](https://codeforces.com/contest/2288/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2288/A%20-%20Youmu%20Konpaku%20and%20the%20Duel/solution.java) |
+| 2289A | [Problem from Dolgoderevenskoye](https://codeforces.com/contest/2289/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2289/A%20-%20Problem%20from%20Dolgoderevenskoye/solution.java) |
 | 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/E%20-%20Avalanche/solution.java) |
 
 ### number theory
