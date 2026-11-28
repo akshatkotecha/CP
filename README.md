@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 423 | 30 |
+| 424 | 30 |
 
 ---
 
@@ -30,7 +30,7 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (193)
+- [greedy](#greedy) (194)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (89)
 - [interactive](#interactive) (1)
@@ -38,7 +38,7 @@
 - [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (67)
+- [sortings](#sortings) (68)
 - [strings](#strings) (41)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (23)
@@ -661,6 +661,7 @@
 | 2283A | [Numbers on the Board](https://codeforces.com/contest/2283/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2283/A%20-%20Numbers%20on%20the%20Board/solution.java) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.java) |
 | 2284A2 | [15K4JR3B (Hard Version)](https://codeforces.com/contest/2284/problem/A2) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2284/A2%20-%2015K4JR3B%20(Hard%20Version)/solution.java) |
+| 2292B | [Grapefruit Juice](https://codeforces.com/contest/2292/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2292/B%20-%20Grapefruit%20Juice/solution.java) |
 
 ### hashing
 
@@ -1088,6 +1089,7 @@
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.java) |
 | 2264C | [Madamant's Skating Dynasty](https://codeforces.com/contest/2264/problem/C) | 1400 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2264/C%20-%20Madamant's%20Skating%20Dynasty/solution.java) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
+| 2292B | [Grapefruit Juice](https://codeforces.com/contest/2292/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2292/B%20-%20Grapefruit%20Juice/solution.java) |
 
 ### strings
 
