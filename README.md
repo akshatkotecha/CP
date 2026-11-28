@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 422 | 30 |
+| 423 | 30 |
 
 ---
 
@@ -32,9 +32,9 @@
 - [graphs](#graphs) (3)
 - [greedy](#greedy) (193)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (88)
+- [implementation](#implementation) (89)
 - [interactive](#interactive) (1)
-- [math](#math) (181)
+- [math](#math) (182)
 - [number theory](#number-theory) (42)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
@@ -760,6 +760,7 @@
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
 | 2280A | [Are They the Same?](https://codeforces.com/contest/2280/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2280/A%20-%20Are%20They%20the%20Same%3F/solution.java) |
+| 2292A | [Picnic for Two](https://codeforces.com/contest/2292/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2292/A%20-%20Picnic%20for%20Two/solution.java) |
 
 ### interactive
 
@@ -952,6 +953,7 @@
 | 2288A | [Youmu Konpaku and the Duel](https://codeforces.com/contest/2288/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2288/A%20-%20Youmu%20Konpaku%20and%20the%20Duel/solution.java) |
 | 2289A | [Problem from Dolgoderevenskoye](https://codeforces.com/contest/2289/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2289/A%20-%20Problem%20from%20Dolgoderevenskoye/solution.java) |
 | 2290E | [Avalanche](https://codeforces.com/contest/2290/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2290/E%20-%20Avalanche/solution.java) |
+| 2292A | [Picnic for Two](https://codeforces.com/contest/2292/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2292/A%20-%20Picnic%20for%20Two/solution.java) |
 
 ### number theory
 
