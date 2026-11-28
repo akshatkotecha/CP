@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 424 | 30 |
+| 425 | 30 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [bitmasks](#bitmasks) (23)
 - [brute force](#brute-force) (79)
 - [combinatorics](#combinatorics) (10)
-- [constructive algorithms](#constructive-algorithms) (75)
+- [constructive algorithms](#constructive-algorithms) (76)
 - [data structures](#data-structures) (20)
 - [dfs and similar](#dfs-and-similar) (6)
 - [dp](#dp) (31)
@@ -39,7 +39,7 @@
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (68)
-- [strings](#strings) (41)
+- [strings](#strings) (42)
 - [trees](#trees) (3)
 - [two pointers](#two-pointers) (23)
 
@@ -327,6 +327,7 @@
 | 2259E | [Treasure Map Destruction (Constructive Version)](https://codeforces.com/contest/2259/problem/E) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2259/E%20-%20Treasure%20Map%20Destruction%20(Constructive%20Version)/solution.java) |
 | 2271A | [Robot Odd Moves](https://codeforces.com/contest/2271/problem/A) | 800 | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2271/A%20-%20Robot%20Odd%20Moves/solution.java) |
 | 2278B | [Stakes and Shapes](https://codeforces.com/contest/2278/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/B%20-%20Stakes%20and%20Shapes/solution.java) |
+| 2292C | [Finding Shapes in the Clouds](https://codeforces.com/contest/2292/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2292/C%20-%20Finding%20Shapes%20in%20the%20Clouds/solution.java) |
 
 ### data structures
 
@@ -1136,6 +1137,7 @@
 | 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2276/B%20-%20Replace%20and%20Compress/solution.java) |
 | 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.java) |
 | 2285B | [Diverse String](https://codeforces.com/contest/2285/problem/B) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2285/B%20-%20Diverse%20String/solution.java) |
+| 2292C | [Finding Shapes in the Clouds](https://codeforces.com/contest/2292/problem/C) | Unrated | [Java 21](https://github.com/akshatkotecha/CP/blob/HEAD/2292/C%20-%20Finding%20Shapes%20in%20the%20Clouds/solution.java) |
 
 ### trees
 
